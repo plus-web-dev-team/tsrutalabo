@@ -15,7 +15,9 @@
                 <div class="uk-container uk-container-large">
                     <div uk-navbar>
                         <div class="uk-navbar-left">
-                            <a class="uk-navbar-item uk-logo" href="#" aria-label="Back to Home">TSURUTA LABO</a>
+                            <a class="uk-logo uk-width-expand" href="#" aria-label="Back to Home"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.svg" alt=""></a>
+                        </div>
+                        <div class="uk-navbar-center">
                             <ul class="uk-navbar-nav uk-visible@m">
                                 <li><a href="#">事業紹介</a></li>
                                 <li><a href="#">施設概要</a></li>
@@ -25,21 +27,17 @@
                                 <li><a href="#">お問い合わせ</a></li>
                             </ul>
                         </div>
-                        <div class="uk-navbar-right uk-visible@m">
-                            <div class="uk-navbar-item">
+                        <div class="uk-navbar-right">
+                            <div class="uk-navbar-item uk-visible@m">
                                 <a href="#">
                                     <div class="uk-text-center">
                                         営業時間09:00〜18:00
                                         <div class="uk-navbar-subtitle uk-text-large">0173-26-5888</div>
                                     </div>
                                 </a>
-                            </div>
-                            <div class="uk-navbar-item">
                                 <a class="uk-button uk-button-default uk-border-rounded" href="">ご予約はこちらから</a>
                                 <a class="uk-navbar-toggle" href="#modal-full" uk-search-icon uk-toggle></a>
                             </div>
-                        </div>
-                        <div class="uk-navbar-right">
                             <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-nav" uk-toggle>
                                 <span uk-navbar-toggle-icon></span>
                             </a>
@@ -66,17 +64,3 @@
                 </ul>
             </div>
     </header>
-
-
-
-    <!-- Off-canvas menu (for small screens) -->
-    <div id="offcanvas-nav" uk-offcanvas="mode: slide; overlay: true">
-        <div class="uk-offcanvas-bar">
-            <ul class="uk-nav uk-nav-default">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-    </div>

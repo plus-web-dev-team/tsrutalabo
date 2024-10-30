@@ -199,10 +199,10 @@
     <section class="uk-section uk-section-primary" id="cta">
         <div class="uk-container uk-container-expand">
             <div class="uk-grid uk-child-width-1-3@m uk-grid-small uk-grid-match uk-text-white" uk-grid>
-                <div class="uk-flex uk-flex-top">
+                <div class="uk-width-expand uk-flex uk-flex-top">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/cta_image01.png" alt="" class="uk-width-large">
                 </div>
-                <div>
+                <div class="uk-width-1-2">
                     <h2 class="uk-heading uk-text-center uk-text-uppercase uk-text-bold">
                         <span>
                             <div class="uk-navbar-subtitle">- contact -</div>
@@ -219,7 +219,7 @@
                         <p class="uk-margin-remove uk-heading-medium">0173-26-5888</p>
                     </div>
                 </div>
-                <div class="uk-flex uk-flex-bottom uk-flex-right">
+                <div class="uk-width-expand uk-flex uk-flex-bottom uk-flex-right">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/cta_image02.png" alt="" class="uk-width-large">
                 </div>
             </div>
@@ -265,19 +265,51 @@
                 <div>
                     <a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/links_noimage.jpg" alt="" class="uk-width-expand"></a>
                 </div>
+                <div>
+                    <a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/links_noimage.jpg" alt="" class="uk-width-expand"></a>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="uk-section">
-        <div class="uk-container">
-            <div class="uk-flex uk-flex-middle">
-                <div class="uk-logo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/logo.svg" alt="">
+    <section class="uk-section uk-padding-remove-bottom">
+        <div class="uk-container uk-container-large">
+            <div class="uk-flex uk-flex-around uk-flex-middle uk-width-1-1">
+                <div class="uk-flex uk-flex-middle">
+                    <div class="uk-logo uk-margin-right"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.svg" alt=""></div>
+                    <div>
+                        <a href="" uk-icon="icon: twitter"></a>
+                        <a href="" uk-icon="icon: facebook"></a>
+                        <a href="" uk-icon="icon: instagram"></a>
+                    </div>
                 </div>
-                <a href="" uk-icon="icon: twitter"></a>
-                <a href="" uk-icon="icon: facebook"></a>
-                <a href="" uk-icon="icon: instagram"></a>
+                <div class="uk-flex uk-flex-middle">
+                    <a href="#" class="uk-margin-right">
+                        <div class="uk-text-center">
+                            営業時間09:00〜18:00
+                            <div class="uk-navbar-subtitle uk-text-large">0173-26-5888</div>
+                        </div>
+                    </a>
+                    <a class="uk-button uk-button-default uk-border-rounded" href="">ご予約はこちらから</a>
+                </div>
+            </div>
+            <hr>
+            <ul class="uk-nav uk-flex uk-flex-around uk-flex-middle">
+                <li><a href="#">ホーム</a></li>
+                <li><a href="#">事業紹介</a></li>
+                <li><a href="#">施設概要</a></li>
+                <li><a href="#">利用者紹介</a></li>
+                <li><a href="#">ご利用方法</a></li>
+                <li><a href="#">お知らせ</a></li>
+                <li><a href="#">お問い合わせ</a></li>
+            </ul>
+        </div>
+        <div class="uk-background-primary uk-margin-large-top uk-text-white">
+            <div class="uk-container">
+                <div class="uk-flex uk-flex-middle uk-flex-around uk-text-small uk-padding-small">
+                    <p class="uk-margin-remove"><a href="" class="uk-text-white">個人情報保護方針</a></p>
+                    <p class="uk-margin-remove">© 2024 TSURUTA LABO. All Rights Reserved.</p>
+                </div>
             </div>
         </div>
     </section>
