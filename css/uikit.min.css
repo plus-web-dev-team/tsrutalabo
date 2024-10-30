@@ -1279,7 +1279,7 @@ select.uk-form-width-xsmall {
 }
 .uk-button-primary.uk-active,
 .uk-button-primary:active {
-  background-color: #0e6dcd;
+  background-color: #407b3e;
   color: #fff;
 }
 .uk-button-secondary {
@@ -2599,7 +2599,7 @@ select.uk-form-width-xsmall {
   box-sizing: border-box;
   width: 270px;
   padding: 20px 20px;
-  background: #407b3e;
+  background: #0d4b08;
   overflow-y: auto;
 }
 @media (min-width: 640px) {
@@ -3538,7 +3538,7 @@ ul.uk-nav-sub {
 }
 .uk-navbar-nav > li:hover > a,
 .uk-navbar-nav > li > a[aria-expanded="true"] {
-  color: #666;
+  color: #407b3e;
 }
 .uk-navbar-nav > li > a:active {
   color: #333;
@@ -3555,18 +3555,18 @@ ul.uk-nav-sub {
 }
 .uk-navbar-item {
   padding: 0 0;
-  color: #666;
+  color: #0d4b08;
 }
 .uk-navbar-item > :last-child {
   margin-bottom: 0;
 }
 .uk-navbar-toggle {
   padding: 0 0;
-  color: #999;
+  color: #0d4b08;
 }
 .uk-navbar-toggle:hover,
 .uk-navbar-toggle[aria-expanded="true"] {
-  color: #666;
+  color: #407b3e;
   text-decoration: none;
 }
 .uk-navbar-subtitle {
