@@ -7,31 +7,24 @@
     </section>
 
     <section class="uk-section uk-background-default" id="news">
-        <div class="uk-container">
+        <div class="uk-container uk-container-small">
             <h2 class="uk-heading uk-text-center uk-text-uppercase uk-text-bold">
                 <span>
                     <div class="uk-navbar-subtitle">- news -</div>お知らせ
                 </span>
             </h2>
-
             <?php
-            // 最新記事を5件取得するクエリ
             $args = array(
-                'posts_per_page' => 5,  // 記事を5件取得
-                'post_status'    => 'publish', // 公開状態の記事のみ
+                'posts_per_page' => 5,
+                'post_status'    => 'publish',
             );
             $query = new WP_Query($args);
-
-            // 記事が存在する場合のループ処理
             if ($query->have_posts()) :
                 while ($query->have_posts()) : $query->the_post(); ?>
                     <article id="post-<?php the_ID(); ?>" <?php post_class('uk-flex uk-flex-middle uk-margin-medium-bottom uk-border-dashed'); ?>>
-                        <!-- 日付部分 -->
                         <div class="uk-width-auto uk-margin-medium-right">
                             <p><?php echo get_the_date('Y.m.d'); ?></p>
                         </div>
-
-                        <!-- タイトル部分 -->
                         <div class="uk-width-expand">
                             <p>
                                 <a href="<?php the_permalink(); ?>" class="uk-link-reset">
@@ -44,8 +37,7 @@
             else : ?>
                 <p>記事がありません。</p>
             <?php endif;
-
-            wp_reset_postdata(); // グローバル変数のリセット
+            wp_reset_postdata();
             ?>
         </div>
         <div class="uk-align-center uk-text-center">
@@ -82,7 +74,7 @@
                     <div class="uk-navbar-subtitle">- facility -</div>施設概要
                 </span>
             </h2>
-            <div class="uk-align-center uk-width-fit uk-align-center">
+            <div class="uk-align-center uk-width-fit uk-align-center uk-margin-large-bottom">
                 <p>地域活性化支援センターは、旧鶴田町立水元中央小学校の建物をリノベーションし、<br>多様な用途に対応できる複合施設として整備されています。<br>
                     地域内外の利用者がビジネスやコミュニティ活動に活用できる環境を提供し、<br>地域産業の振興と住民同士の交流を促進します。</p>
             </div>
@@ -115,7 +107,7 @@
     </section>
 
     <section class="uk-section" id="howtouse">
-        <div class="uk-container">
+        <div class="uk-container uk-margin-large-bottom">
             <h2 class="uk-heading uk-text-center uk-text-uppercase uk-text-bold">
                 <span>
                     <div class="uk-navbar-subtitle">- how to use -</div>ご利用方法
@@ -272,7 +264,7 @@
         </div>
     </section>
 
-    <section class="uk-section uk-padding-remove-bottom">
+    <section class="uk-section uk-padding-remove-bottom" id="footnav">
         <div class="uk-container uk-container-large">
             <div class="uk-flex uk-flex-around uk-flex-middle uk-width-1-1">
                 <div class="uk-flex uk-flex-middle">
