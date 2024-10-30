@@ -1,0 +1,30 @@
+.uk-border-dashed {
+  border-bottom: 1px dashed #0d4b08;
+}
+
+.uk-line-height {
+  line-height: 2.75;
+}
+
+.uk-letter-spacing {
+  letter-spacing: 1.6px;
+}
+
+.uk-width-fit {
+  width: fit-content;
+}
+
+.uk-label-default {
+  background-color: transparent;
+  border: solid 1px #0d4b08;
+  color: #0d4b08;
+  padding: 4px 8px;
+  width: fit-content !important;
+  display: block;
+  font-size: 12px;
+  margin: 20px 0 10px 0;
+}
+
+.uk-text-white {
+  color: #fff !important;
+}
