@@ -20,9 +20,9 @@
                         <?php endif; ?>
                     </ul>
                     <div class="uk-text-right">
-                        <h1 class="uk-heading-medium uk-text-bold uk-margin-remove uk-text-uppercase"><?php the_title(); ?></h1>
+                        <p class="uk-heading-medium uk-text-bolder uk-margin-remove uk-text-uppercase"><?php the_title(); ?></p>
                         <?php if (get_post_meta(get_the_ID(), 'subtitle', true)) : ?>
-                            <p class="uk-margin-remove"><?php echo esc_html(get_post_meta(get_the_ID(), 'subtitle', true)); ?></p>
+                            <h1 class="uk-text-default uk-margin-remove"><?php echo esc_html(get_post_meta(get_the_ID(), 'subtitle', true)); ?></h1>
                         <?php endif; ?>
                     </div>
                 </div>

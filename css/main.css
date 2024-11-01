@@ -2,8 +2,17 @@
   border-bottom: 1px dashed #0d4b08;
 }
 
+.uk-border-solid {
+  /* border-top: 1px solid #0d4b08; */
+  border-bottom: 1px solid #0d4b08;
+}
+
 .uk-line-height {
   line-height: 2.75;
+}
+
+.uk-line-height-1-8 {
+  line-height: 1.8;
 }
 
 .uk-letter-spacing {
@@ -39,4 +48,13 @@
 
 .uk-page-header {
   background-color: #f9fcf9;
+}
+
+.uk-position-relative {
+  position: relative;
+}
+
+.uk-position-top-right {
+  top: -50px;
+  right: 200px;
 }

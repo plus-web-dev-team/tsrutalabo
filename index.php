@@ -8,7 +8,7 @@
 
     <section class="uk-section uk-background-default" id="news">
         <div class="uk-container uk-container-small">
-            <h2 class="uk-heading uk-text-center uk-text-uppercase uk-text-bold">
+            <h2 class="uk-heading uk-text-center uk-text-uppercase uk-text-bolder">
                 <span>
                     <div class="uk-navbar-subtitle">- news -</div>お知らせ
                 </span>
@@ -47,7 +47,7 @@
 
     <section class="uk-section" id="about">
         <div class="uk-container">
-            <h2 class="uk-heading uk-text-center uk-text-uppercase uk-text-bold">
+            <h2 class="uk-heading uk-text-center uk-text-uppercase uk-text-bolder">
                 <span>
                     <div class="uk-navbar-subtitle">- about -</div>事業紹介
                 </span>
@@ -69,7 +69,7 @@
 
     <section class="uk-section uk-background-default" id="facility">
         <div class="uk-container">
-            <h2 class="uk-heading uk-text-center uk-text-uppercase uk-text-bold">
+            <h2 class="uk-heading uk-text-center uk-text-uppercase uk-text-bolder">
                 <span>
                     <div class="uk-navbar-subtitle">- facility -</div>施設概要
                 </span>
@@ -108,7 +108,7 @@
 
     <section class="uk-section" id="howtouse">
         <div class="uk-container uk-margin-large-bottom">
-            <h2 class="uk-heading uk-text-center uk-text-uppercase uk-text-bold">
+            <h2 class="uk-heading uk-text-center uk-text-uppercase uk-text-bolder">
                 <span>
                     <div class="uk-navbar-subtitle">- how to use -</div>ご利用方法
                 </span>
@@ -124,7 +124,7 @@
 
     <section class="uk-section uk-background-default" id="residence">
         <div class="uk-container">
-            <h2 class="uk-heading uk-text-center uk-text-uppercase uk-text-bold">
+            <h2 class="uk-heading uk-text-center uk-text-uppercase uk-text-bolder">
                 <span>
                     <div class="uk-navbar-subtitle">- residence -</div>利用者紹介
                 </span>
@@ -168,7 +168,7 @@
         <div class="uk-container">
             <div class="uk-grid uk-child-width-1-2@m uk-grid-small uk-grid-match" uk-grid>
                 <div>
-                    <h2 class="uk-heading uk-text-center uk-text-uppercase uk-text-bold">
+                    <h2 class="uk-heading uk-text-center uk-text-uppercase uk-text-bolder">
                         <span>
                             <div class="uk-navbar-subtitle">- access -</div>アクセスマップ
                         </span>

@@ -5,7 +5,7 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/images/cta_image01.png" alt="" class="uk-width-large">
             </div>
             <div class="uk-width-1-2@m">
-                <h2 class="uk-heading uk-text-center uk-text-uppercase uk-text-bold">
+                <h2 class="uk-heading uk-text-center uk-text-uppercase uk-text-bolder">
                     <span>
                         <div class="uk-navbar-subtitle">- contact -</div>
                         お問い合わせ・ご予約はこちら！
@@ -38,7 +38,7 @@
 
 <section class="uk-section uk-background-default" id="links">
     <div class="uk-container">
-        <h2 class="uk-heading uk-text-center uk-text-uppercase uk-text-bold">
+        <h2 class="uk-heading uk-text-center uk-text-uppercase uk-text-bolder">
             LINKS
         </h2>
         <div class="uk-grid uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-6@m uk-grid-small uk-grid-match" uk-grid>
