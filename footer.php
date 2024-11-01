@@ -20,6 +20,14 @@
                     <p class="uk-margin-remove">営業時間09:00〜18:00</p>
                     <p class="uk-margin-remove uk-heading-medium">0173-26-5888</p>
                 </div>
+                <div class="uk-flex uk-width-fit uk-align-center">
+                    <div class="uk-margin-right">
+                        <a href="<?php echo home_url("contact"); ?>" class="uk-button uk-button-primary uk-button-large uk-border-rounded">メールでのお問い合わせ</a>
+                    </div>
+                    <div class="uk-margin-left">
+                        <a href="<?php echo home_url("reservation"); ?>" class="uk-button uk-button-primary uk-button-large uk-border-rounded">ご予約の方はこちらから</a>
+                    </div>
+                </div>
             </div>
             <div class="uk-width-expand uk-flex uk-flex-bottom uk-flex-right">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/cta_image02.png" alt="" class="uk-width-large">
@@ -39,24 +47,6 @@
             </div>
             <div>
                 <a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/links_image02.jpg" alt="" class="uk-width-expand"></a>
-            </div>
-            <div>
-                <a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/links_noimage.jpg" alt="" class="uk-width-expand"></a>
-            </div>
-            <div>
-                <a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/links_noimage.jpg" alt="" class="uk-width-expand"></a>
-            </div>
-            <div>
-                <a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/links_noimage.jpg" alt="" class="uk-width-expand"></a>
-            </div>
-            <div>
-                <a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/links_noimage.jpg" alt="" class="uk-width-expand"></a>
-            </div>
-            <div>
-                <a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/links_noimage.jpg" alt="" class="uk-width-expand"></a>
-            </div>
-            <div>
-                <a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/links_noimage.jpg" alt="" class="uk-width-expand"></a>
             </div>
             <div>
                 <a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/links_noimage.jpg" alt="" class="uk-width-expand"></a>
@@ -96,7 +86,7 @@
                         <div class="uk-navbar-subtitle uk-text-large">0173-26-5888</div>
                     </div>
                 </a>
-                <a class="uk-button uk-button-default uk-border-rounded" href="<?php echo home_url("contact"); ?>">ご予約はこちらから</a>
+                <a class="uk-button uk-button-default uk-border-rounded" href="<?php echo home_url("reservation"); ?>">ご予約はこちらから</a>
             </div>
         </div>
         <hr>
@@ -119,7 +109,7 @@
                 <p class="uk-margin-remove">
                     <a href="<?php echo home_url("privacy"); ?>" class="uk-text-white">個人情報保護方針</a>
                 </p>
-                <p class="uk-margin-remove">© TSURUTA LABO. All Rights Reserved.</p>
+                <p class="uk-margin-remove">© TSURUTA LABO. All Rights reservationd.</p>
             </div>
         </div>
     </div>

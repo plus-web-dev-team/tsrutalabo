@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <div uk-sticky="start: 200; animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent">
+        <div uk-sticky="start: 200; animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent" class="uk-header">
             <nav class="uk-navbar-container">
                 <div class="uk-container uk-container-large">
                     <div uk-navbar>
@@ -32,7 +32,7 @@
                                     営業時間09:00〜18:00
                                     <div class="uk-navbar-subtitle uk-text-large">0173-26-5888</div>
                                 </div>
-                                <a class="uk-button uk-button-default uk-border-rounded uk-margin-small-right uk-margin-small-left" href="<?php echo home_url("howtouse"); ?>">ご予約はこちらから</a>
+                                <a class="uk-button uk-button-default uk-border-rounded uk-margin-small-right uk-margin-small-left" href="<?php echo home_url("reservation"); ?>">ご予約はこちらから</a>
                                 <a class="uk-navbar-toggle" href="#modal-full" uk-search-icon uk-toggle></a>
                             </div>
                             <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-nav" uk-toggle>

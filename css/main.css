@@ -28,3 +28,15 @@
 .uk-text-white {
   color: #fff !important;
 }
+
+.uk-background-white {
+  background-color: #fff !important;
+}
+
+.uk-header {
+  border-bottom: solid 2px #0d4b08;
+}
+
+.uk-page-header {
+  background-color: #f9fcf9;
+}
