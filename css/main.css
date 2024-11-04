@@ -64,3 +64,21 @@ html {
 .uk-flex-gap {
   gap: 20px;
 }
+
+.uk-card-default {
+  --uk-inverse: dark;
+  background-color: #fff;
+  color: #0d4b08;
+  border: solid 1px #0d4b08;
+}
+
+.uk-card-center {
+  margin-top: -50px;
+  margin-bottom: 50px;
+  border: solid 5px #0d4b08;
+  z-index: 2;
+}
+
+.uk-border-remove {
+  border: none !important;
+}

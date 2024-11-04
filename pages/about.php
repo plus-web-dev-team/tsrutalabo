@@ -9,7 +9,7 @@ Template Name: 事業紹介
     <section class="uk-section uk-page-header">
         <div class="uk-container">
             <?php
-            include get_template_directory() . '/breadcrumb.php';
+            include get_template_directory() . '/components/breadcrumb.php';
             if (function_exists('display_breadcrumb')) {
                 display_breadcrumb();
             }

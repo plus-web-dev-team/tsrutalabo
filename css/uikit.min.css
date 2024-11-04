@@ -1721,11 +1721,11 @@ select.uk-form-width-xsmall {
 .uk-card-default {
   --uk-inverse: dark;
   background-color: #fff;
-  color: #666;
+  color: #0d4b08;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 }
 .uk-card-default .uk-card-title {
-  color: #333;
+  color: #0d4b08;
 }
 .uk-card-default.uk-card-hover:hover {
   background-color: #fff;
@@ -4960,7 +4960,7 @@ ul.uk-nav-sub {
 .uk-text-lead {
   font-size: 1.5rem;
   line-height: 1.5;
-  color: #333;
+  color: #0d4b08;
 }
 .uk-text-meta {
   font-size: 0.875rem;
@@ -6780,7 +6780,7 @@ iframe[uk-cover] {
 .uk-section-secondary:not(.uk-preserve-color),
 .uk-tile-primary:not(.uk-preserve-color),
 .uk-tile-secondary:not(.uk-preserve-color) {
-  color: #0d4b08;
+  color: #fff;
 }
 .uk-card-primary.uk-card-body .uk-link,
 .uk-card-primary.uk-card-body a,

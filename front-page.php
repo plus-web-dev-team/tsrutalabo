@@ -132,31 +132,57 @@
             <div class="uk-align-center uk-width-fit uk-align-center">
                 <p class="uk-width-3-4@m uk-align-center">鶴田町地域活性化支援センター（愛称：TSURUTA LABO）では、様々な分野で活動する法人や個人が活動しています。それぞれが独自のビジネスや活動を展開し、地域と連携しながら新たな価値を創出しています。ここでは、現在入居している利用者をご紹介します。</p>
             </div>
-            <div class="uk-grid uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
-                <div>
-                    <div><img src="<?php echo get_template_directory_uri(); ?>/images/residence_image01.jpg" alt="" class="uk-width-expand"></div>
-                    <div>
-                        <span class="uk-label-default">業種が入ります</span>
-                        <p class="uk-margin-remove-top">ミライク</p>
-                        <p class="uk-margin-remove-top">説明が入ります。説明が入ります。説明が入ります。説明が入ります。説明が入ります。説明が入ります。説明が入ります。説明が入ります。説明が入ります。説明が入ります。説明が入ります。説明が入ります。説明が入ります。説明が入ります。説明が入ります。</p>
-                    </div>
-                </div>
-                <div>
-                    <div><img src="<?php echo get_template_directory_uri(); ?>/images/residence_image02.jpg" alt="" class="uk-width-expand"></div>
-                    <div>
-                        <span class="uk-label-default">つまみ細工作家</span>
-                        <p class="uk-margin-remove-top">NATSUKO MIYAKOSHI</p>
-                        <p class="uk-margin-remove-top">NATSUKO MIYAKOSHIは、着物を素材に、日本の伝統技術「つまみ細工」の技法を作ってお作りするアクセサリーやアートピース「SOUZOUKA」や青森の伝統工芸品「こぎん刺し」の模様を使用した卓上ランプ「光るこぎん」など日本の伝統技術を活用したモダンな商品、作品を製作しています。</p>
-                    </div>
-                </div>
-                <div>
-                    <div><img src="<?php echo get_template_directory_uri(); ?>/images/residence_noimage.jpg" alt="" class="uk-width-expand"></div>
-                    <!-- <div>
-                        <span class="uk-label-default">業種</span>
-                        <p class="uk-margin-remove-top">社名</p>
-                        <p class="uk-margin-remove-top">現在募集中です。</p>
-                    </div> -->
-                </div>
+            <div class="uk-grid uk-child-width-1-3@m uk-grid-small" uk-grid>
+                <?php
+                $custom_posts = new WP_Query(array(
+                    'post_type' => 'add_residence',
+                    'posts_per_page' => 3
+                ));
+
+                if ($custom_posts->have_posts()) :
+                    while ($custom_posts->have_posts()) : $custom_posts->the_post();
+                ?>
+                        <div>
+                            <div>
+                                <?php $image = get_field("custom_image");
+                                if (!empty($image)) : ?>
+                                    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+                                    <p><?php echo esc_html($image['caption']); ?></p>
+                                <?php endif; ?>
+                            </div>
+                            <div>
+                                <?php if ($industry = get_field("custom_industry")) : ?>
+                                    <span class="uk-label-default"><?php echo esc_html($industry); ?></span>
+                                <?php endif; ?>
+                                <?php if ($name = get_field("custom_name")) : ?>
+                                    <p><?php echo esc_html($name); ?></p>
+                                <?php endif; ?>
+                                <?php if ($description = get_field("custom_description")) : ?>
+                                    <p class="uk-margin-remove-top"><?php echo esc_html($description); ?></p>
+                                <?php endif; ?>
+                                <div class="uk-margin-small-bottom">
+                                    <?php if ($twitter = get_field("custom_twitter")) : ?>
+                                        <a href="<?php echo esc_url($twitter); ?>" uk-icon="icon: twitter"></a>
+                                    <?php endif; ?>
+                                    <?php if ($facebook = get_field("custom_facebook")) : ?>
+                                        <a href="<?php echo esc_url($facebook); ?>" uk-icon="icon: facebook"></a>
+                                    <?php endif; ?>
+                                    <?php if ($instagram = get_field("custom_instagram")) : ?>
+                                        <a href="<?php echo esc_url($instagram); ?>" uk-icon="icon: instagram"></a>
+                                    <?php endif; ?>
+                                </div>
+                                <?php if ($google_map = get_field("custom_google_map")) : ?>
+                                    <p><a href="<?php echo esc_url($google_map); ?>" class="uk-border-solid">Google Map</a></p>
+                                <?php endif; ?>
+                            </div>
+                        </div>
+                <?php
+                    endwhile;
+                    wp_reset_postdata();
+                else :
+                    echo '<p>カスタム投稿が見つかりませんでした。</p>';
+                endif;
+                ?>
             </div>
         </div>
         <div class="uk-align-center uk-text-center">
@@ -165,7 +191,7 @@
     </section>
 
     <?php
-    include get_template_directory() . '/accessmap.php';
+    include get_template_directory() . '/components/accessmap.php';
 
     if (function_exists('display_accessmap')) {
         display_accessmap();

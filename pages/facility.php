@@ -9,7 +9,7 @@ Template Name: 施設概要
     <section class="uk-section uk-page-header">
         <div class="uk-container">
             <?php
-            include get_template_directory() . '/breadcrumb.php';
+            include get_template_directory() . '/components/breadcrumb.php';
             if (function_exists('display_breadcrumb')) {
                 display_breadcrumb();
             }
@@ -128,7 +128,7 @@ Template Name: 施設概要
     </section>
 
     <?php
-    include get_template_directory() . '/accessmap.php';
+    include get_template_directory() . '/components/accessmap.php';
 
     if (function_exists('display_accessmap')) {
         display_accessmap();
