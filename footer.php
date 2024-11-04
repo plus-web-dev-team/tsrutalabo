@@ -20,11 +20,11 @@
                     <p class="uk-margin-remove">営業時間09:00〜18:00</p>
                     <p class="uk-margin-remove uk-heading-medium">0173-26-5888</p>
                 </div>
-                <div class="uk-flex uk-width-fit uk-align-center">
-                    <div class="uk-margin-right">
+                <div class="uk-flex uk-flex-gap uk-flex-column uk-flex-row@m uk-width-fit uk-margin-auto uk-margin-bottom">
+                    <div>
                         <a href="<?php echo home_url("contact"); ?>" class="uk-button uk-button-primary uk-button-large uk-border-rounded">メールでのお問い合わせ</a>
                     </div>
-                    <div class="uk-margin-left">
+                    <div>
                         <a href="<?php echo home_url("reservation"); ?>" class="uk-button uk-button-primary uk-button-large uk-border-rounded">ご予約の方はこちらから</a>
                     </div>
                 </div>

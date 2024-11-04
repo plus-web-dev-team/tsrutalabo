@@ -30,3 +30,75 @@ function disable_jquery()
     }
 }
 add_action('wp_enqueue_scripts', 'disable_jquery');
+
+/* =============================================
+ ページタイトル | サイトタイトル の形式に設定
+============================================= */
+function custom_wp_title($title)
+{
+    // サイト名を取得
+    $site_name = get_bloginfo('name');
+
+    // ページタイトルを取得
+    if (is_single() || is_page()) {
+        $page_title = single_post_title('', false);
+    } elseif (is_category()) {
+        $page_title = single_cat_title('', false);
+    } elseif (is_tag()) {
+        $page_title = single_tag_title('', false);
+    } elseif (is_archive()) {
+        $page_title = post_type_archive_title('', false);
+    } elseif (is_search()) {
+        $page_title = sprintf(__('Search Results for %s'), get_search_query());
+    } elseif (is_404()) {
+        $page_title = __('Page Not Found');
+    } else {
+        $page_title = get_the_title();
+    }
+
+    // タイトルを結合
+    if ($page_title) {
+        $title = $page_title . " | " . $site_name;
+    } else {
+        $title = $site_name;
+    }
+
+    return $title;
+}
+add_filter('pre_get_document_title', 'custom_wp_title');
+add_theme_support('title-tag');
+
+/* =============================================
+ カスタム投稿
+============================================= */
+function add_custom_user_registration_meta_box()
+{
+    add_meta_box(
+        'user_registration_meta_box', // メタボックスのID
+        '利用者登録', // メタボックスのタイトル
+        'display_user_registration_meta_box', // 表示するコールバック関数
+        'add_residence', // 対象の投稿タイプ（カスタム投稿タイプ名に置き換えてください）
+        'normal', // 表示する位置（normal, side, advanced など）
+        'high' // 表示優先度（high, core, default, low など）
+    );
+}
+add_action('add_meta_boxes', 'add_custom_user_registration_meta_box');
+
+// メタボックスの内容を表示する関数
+function display_user_registration_meta_box($post)
+{
+    $registration_value = get_post_meta($post->ID, 'user_registration', true);
+?>
+    <label for="user_registration">利用者登録内容:</label>
+    <textarea name="user_registration" id="user_registration" rows="5" style="width:100%;"><?php echo esc_textarea($registration_value); ?></textarea>
+<?php
+}
+
+// メタボックスのデータを保存する関数
+function save_user_registration_meta_box_data($post_id)
+{
+    if (isset($_POST['user_registration'])) {
+        update_post_meta($post_id, 'user_registration', sanitize_textarea_field($_POST['user_registration']));
+    }
+}
+add_action('save_post', 'save_user_registration_meta_box_data');

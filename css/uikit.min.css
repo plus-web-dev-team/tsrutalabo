@@ -1456,11 +1456,11 @@ select.uk-form-width-xsmall {
 }
 .uk-section-default {
   --uk-inverse: dark;
-  background: #fff;
+  background: #0d4b08;
 }
 .uk-section-muted {
   --uk-inverse: dark;
-  background: #f8f8f8;
+  background: #0d4b08;
 }
 .uk-section-primary {
   --uk-inverse: light;
@@ -1641,11 +1641,11 @@ select.uk-form-width-xsmall {
 }
 .uk-tile-default {
   --uk-inverse: dark;
-  background-color: #fff;
+  background-color: #0d4b08;
 }
 .uk-tile-muted {
   --uk-inverse: dark;
-  background-color: #f8f8f8;
+  background-color: #0d4b08;
 }
 .uk-tile-primary {
   --uk-inverse: light;
@@ -6780,7 +6780,7 @@ iframe[uk-cover] {
 .uk-section-secondary:not(.uk-preserve-color),
 .uk-tile-primary:not(.uk-preserve-color),
 .uk-tile-secondary:not(.uk-preserve-color) {
-  color: rgba(255, 255, 255, 0.7);
+  color: #0d4b08;
 }
 .uk-card-primary.uk-card-body .uk-link,
 .uk-card-primary.uk-card-body a,
@@ -10286,7 +10286,7 @@ iframe[uk-cover] {
 .uk-section-secondary:not(.uk-preserve-color) .uk-tab > .uk-disabled > a,
 .uk-tile-primary:not(.uk-preserve-color) .uk-tab > .uk-disabled > a,
 .uk-tile-secondary:not(.uk-preserve-color) .uk-tab > .uk-disabled > a {
-  color: rgba(255, 255, 255, 0.5);
+  color: #0d4b08;
 }
 .uk-card-primary.uk-card-body .uk-slidenav,
 .uk-card-primary > :not([class*="uk-card-media"]) .uk-slidenav,
@@ -10299,7 +10299,7 @@ iframe[uk-cover] {
 .uk-section-secondary:not(.uk-preserve-color) .uk-slidenav,
 .uk-tile-primary:not(.uk-preserve-color) .uk-slidenav,
 .uk-tile-secondary:not(.uk-preserve-color) .uk-slidenav {
-  color: rgba(255, 255, 255, 0.7);
+  color: #0d4b08;
 }
 .uk-card-primary.uk-card-body .uk-slidenav:hover,
 .uk-card-primary > :not([class*="uk-card-media"]) .uk-slidenav:hover,
@@ -10312,7 +10312,7 @@ iframe[uk-cover] {
 .uk-section-secondary:not(.uk-preserve-color) .uk-slidenav:hover,
 .uk-tile-primary:not(.uk-preserve-color) .uk-slidenav:hover,
 .uk-tile-secondary:not(.uk-preserve-color) .uk-slidenav:hover {
-  color: rgba(255, 255, 255, 0.95);
+  color: #407b3e;
 }
 .uk-card-primary.uk-card-body .uk-slidenav:active,
 .uk-card-primary > :not([class*="uk-card-media"]) .uk-slidenav:active,
@@ -10339,7 +10339,7 @@ iframe[uk-cover] {
 .uk-tile-primary:not(.uk-preserve-color) .uk-dotnav > * > *,
 .uk-tile-secondary:not(.uk-preserve-color) .uk-dotnav > * > * {
   background-color: transparent;
-  border-color: rgba(255, 255, 255, 0.9);
+  border-color: #0d4b08;
 }
 .uk-card-primary.uk-card-body .uk-dotnav > * > :hover,
 .uk-card-primary > :not([class*="uk-card-media"]) .uk-dotnav > * > :hover,
@@ -10352,7 +10352,7 @@ iframe[uk-cover] {
 .uk-section-secondary:not(.uk-preserve-color) .uk-dotnav > * > :hover,
 .uk-tile-primary:not(.uk-preserve-color) .uk-dotnav > * > :hover,
 .uk-tile-secondary:not(.uk-preserve-color) .uk-dotnav > * > :hover {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: #407b3e;
   border-color: transparent;
 }
 .uk-card-primary.uk-card-body .uk-dotnav > * > :active,
@@ -10380,7 +10380,7 @@ iframe[uk-cover] {
 .uk-section-secondary:not(.uk-preserve-color) .uk-dotnav > .uk-active > *,
 .uk-tile-primary:not(.uk-preserve-color) .uk-dotnav > .uk-active > *,
 .uk-tile-secondary:not(.uk-preserve-color) .uk-dotnav > .uk-active > * {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: #0d4b08;
   border-color: transparent;
 }
 .uk-card-primary.uk-card-body .uk-text-lead,
@@ -10433,7 +10433,7 @@ iframe[uk-cover] {
 .uk-section-secondary:not(.uk-preserve-color) .uk-text-emphasis,
 .uk-tile-primary:not(.uk-preserve-color) .uk-text-emphasis,
 .uk-tile-secondary:not(.uk-preserve-color) .uk-text-emphasis {
-  color: #fff !important;
+  color: #0d4b08 !important;
 }
 .uk-card-primary.uk-card-body .uk-text-primary,
 .uk-card-primary > :not([class*="uk-card-media"]) .uk-text-primary,
@@ -10446,7 +10446,7 @@ iframe[uk-cover] {
 .uk-section-secondary:not(.uk-preserve-color) .uk-text-primary,
 .uk-tile-primary:not(.uk-preserve-color) .uk-text-primary,
 .uk-tile-secondary:not(.uk-preserve-color) .uk-text-primary {
-  color: #fff !important;
+  color: #0d4b08 !important;
 }
 .uk-card-primary.uk-card-body .uk-text-secondary,
 .uk-card-primary > :not([class*="uk-card-media"]) .uk-text-secondary,
@@ -10459,7 +10459,7 @@ iframe[uk-cover] {
 .uk-section-secondary:not(.uk-preserve-color) .uk-text-secondary,
 .uk-tile-primary:not(.uk-preserve-color) .uk-text-secondary,
 .uk-tile-secondary:not(.uk-preserve-color) .uk-text-secondary {
-  color: #fff !important;
+  color: #0d4b08 !important;
 }
 .uk-card-primary.uk-card-body .uk-column-divider,
 .uk-card-primary > :not([class*="uk-card-media"]) .uk-column-divider,
@@ -10485,7 +10485,7 @@ iframe[uk-cover] {
 .uk-section-secondary:not(.uk-preserve-color) .uk-logo,
 .uk-tile-primary:not(.uk-preserve-color) .uk-logo,
 .uk-tile-secondary:not(.uk-preserve-color) .uk-logo {
-  color: #fff;
+  color: #0d4b08;
 }
 .uk-card-primary.uk-card-body .uk-logo:hover,
 .uk-card-primary > :not([class*="uk-card-media"]) .uk-logo:hover,
@@ -10498,7 +10498,7 @@ iframe[uk-cover] {
 .uk-section-secondary:not(.uk-preserve-color) .uk-logo:hover,
 .uk-tile-primary:not(.uk-preserve-color) .uk-logo:hover,
 .uk-tile-secondary:not(.uk-preserve-color) .uk-logo:hover {
-  color: #fff;
+  color: #0d4b08;
 }
 .uk-card-primary.uk-card-body
   .uk-logo:has(.uk-logo-inverse)
