@@ -62,7 +62,7 @@ Template Name: ご利用方法
                     <p>地域活性化支援センターでは、施設内の様々なスペースやサービスを、利用者のニーズに応じて柔軟にご利用いただけるよう、明確な料金体系を設けています。以下は、貸オフィス、コワーキングスペース、イベントスペース、シェアショップなどの利用に関する料金詳細です。</p>
                 </div>
             </div>
-            <div class="uk-child-width-1-3@m uk-padding-large uk-padding-remove-left uk-padding-remove-right uk-padding-remove-bottom" uk-grid>
+            <div class="uk-child-width-1-3@s uk-padding-large uk-padding-remove-left@m uk-padding-remove-right uk-padding-remove-bottom" uk-grid>
                 <div class="uk-card uk-card-default uk-card-body">
                     <div class="uk-text-center">
                         <h3 class="uk-card-title">コワーキングスペース</h3>

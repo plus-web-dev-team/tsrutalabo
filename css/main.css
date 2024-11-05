@@ -33,7 +33,6 @@ html {
   width: fit-content !important;
   display: block;
   font-size: 12px;
-  margin: 20px 0 10px 0;
 }
 
 .uk-text-white {
@@ -79,6 +78,23 @@ html {
   z-index: 2;
 }
 
+@media (max-width: 768px) {
+  .uk-card-center {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
 .uk-border-remove {
   border: none !important;
+}
+
+/* Contact Form 7 ラジオボタンの改行 */
+span.wpcf7-list-item {
+  display: block;
+}
+
+/* Contact Form 7 スピナー非表示 */
+div.wpcf7 .wpcf7-spinner {
+  display: none !important;
 }

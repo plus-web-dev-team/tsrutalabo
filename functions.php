@@ -56,3 +56,15 @@ function custom_document_title_parts($title)
 }
 add_filter('document_title_parts', 'custom_document_title_parts');
 add_theme_support('title-tag');
+
+
+/* =============================================
+ カスタムフィールドを有効化
+============================================= */
+function my_acf_init()
+{
+    if (function_exists('acf_update_setting')) {
+        acf_update_setting('remove_wp_meta_box', false);
+    }
+}
+add_action('acf/init', 'my_acf_init');
