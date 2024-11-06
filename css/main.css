@@ -55,11 +55,6 @@ html {
   position: relative;
 }
 
-.uk-position-top-right {
-  top: -50px;
-  right: 200px;
-}
-
 .uk-flex-gap {
   gap: 20px;
 }

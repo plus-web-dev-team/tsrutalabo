@@ -3872,11 +3872,11 @@ ul.uk-nav-sub {
   transition: color 0.1s ease-in-out;
 }
 .uk-tab > * > a:hover {
-  color: #666;
+  color: #407b3e;
   text-decoration: none;
 }
 .uk-tab > .uk-active > a {
-  color: #333;
+  color: #0d4b08;
   border-color: #0d4b08;
 }
 .uk-tab > .uk-disabled > a {
@@ -3972,7 +3972,7 @@ ul.uk-nav-sub {
   transition-property: background-color, border-color;
 }
 .uk-dotnav > * > :hover {
-  background-color: rgba(102, 102, 102, 0.6);
+  background-color: #0d4b08;
   border-color: transparent;
 }
 .uk-dotnav > * > :active {
@@ -3980,7 +3980,7 @@ ul.uk-nav-sub {
   border-color: transparent;
 }
 .uk-dotnav > .uk-active > * {
-  background-color: rgba(102, 102, 102, 0.6);
+  background-color: #0d4b08;
   border-color: transparent;
 }
 .uk-dotnav-vertical {
@@ -8286,7 +8286,7 @@ iframe[uk-cover] {
 .uk-section-secondary:not(.uk-preserve-color) .uk-button-default,
 .uk-tile-primary:not(.uk-preserve-color) .uk-button-default,
 .uk-tile-secondary:not(.uk-preserve-color) .uk-button-default {
-  background-color: transparent;
+  /* background-color: transparent; */
   color: #fff;
   border-color: rgba(255, 255, 255, 0.7);
 }
@@ -8301,7 +8301,7 @@ iframe[uk-cover] {
 .uk-section-secondary:not(.uk-preserve-color) .uk-button-default:hover,
 .uk-tile-primary:not(.uk-preserve-color) .uk-button-default:hover,
 .uk-tile-secondary:not(.uk-preserve-color) .uk-button-default:hover {
-  background-color: transparent;
+  background-color: #407b3e;
   color: #fff;
   border-color: #fff;
 }
@@ -10410,7 +10410,7 @@ iframe[uk-cover] {
 .uk-section-secondary:not(.uk-preserve-color) .uk-text-lead,
 .uk-tile-primary:not(.uk-preserve-color) .uk-text-lead,
 .uk-tile-secondary:not(.uk-preserve-color) .uk-text-lead {
-  color: rgba(255, 255, 255, 0.7);
+  color: #0d4b08;
 }
 .uk-card-primary.uk-card-body .uk-text-meta,
 .uk-card-primary > :not([class*="uk-card-media"]) .uk-text-meta,
@@ -10436,7 +10436,7 @@ iframe[uk-cover] {
 .uk-section-secondary:not(.uk-preserve-color) .uk-text-muted,
 .uk-tile-primary:not(.uk-preserve-color) .uk-text-muted,
 .uk-tile-secondary:not(.uk-preserve-color) .uk-text-muted {
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: #0d4b08 !important;
 }
 .uk-card-primary.uk-card-body .uk-text-emphasis,
 .uk-card-primary > :not([class*="uk-card-media"]) .uk-text-emphasis,

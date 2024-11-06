@@ -51,17 +51,15 @@ Template Name: 施設概要
     </section>
 
     <section class="uk-section uk-background-default" id="facility_main">
-        <div class="uk-container">
-            <h2 class="uk-heading uk-text-center uk-text-uppercase uk-text-bolder uk-position-relative">
+        <div class="uk-container uk-position-relative">
+            <h2 class="uk-heading uk-text-center uk-text-uppercase uk-text-bolder">
                 <span>
                     <div class="uk-navbar-subtitle">- historical and modern -</div>木の温かみを感じるモダンな空間
                 </span>
-                <img src="<?php echo get_template_directory_uri(); ?>/images/page_facility_main_image01.svg" alt="" class="uk-position-top-right">
             </h2>
-            <div class="uk-margin-auto uk-width-fit uk-margin-large-bottom">
-                <div class="uk-width-3-4@m uk-margin-auto">
-                    旧鶴田町立水元中央小学校は、かつて地域の子どもたちが学びの場として親しんだ歴史的な建物です。その建物が、地域活性化支援センターとして新たな命を吹き込まれました。施設は、昔ながらの温かみある木造校舎の趣を残しつつ、現代的な機能性を兼ね備えた設備に生まれ変わり、「歴史とモダンが融合した空間」を提供しています。
-                </div>
+            <img src="<?php echo get_template_directory_uri(); ?>/images/page_facility_main_image01.svg" alt="" class="uk-position-small uk-position-top-right uk-visible@m uk-width-small">
+            <div class="uk-width-3-4@m uk-margin-auto uk-margin-large-bottom">
+                <p>旧鶴田町立水元中央小学校は、かつて地域の子どもたちが学びの場として親しんだ歴史的な建物です。その建物が、地域活性化支援センターとして新たな命を吹き込まれました。施設は、昔ながらの温かみある木造校舎の趣を残しつつ、現代的な機能性を兼ね備えた設備に生まれ変わり、「歴史とモダンが融合した空間」を提供しています。</p>
             </div>
             <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: true">
                 <div class="uk-slider-items uk-grid">

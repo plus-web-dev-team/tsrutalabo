@@ -22,10 +22,10 @@
                 </div>
                 <div class="uk-grid uk-grid-medium uk-child-width-1-1 uk-child-width-1-2@s" uk-grid>
                     <div class="uk-text-center uk-text-right@s">
-                        <a href="<?php echo esc_url(home_url("contact")); ?>" class="uk-button uk-button-primary uk-button-large uk-border-rounded">メールでのお問い合わせ</a>
+                        <a href="<?php echo esc_url(home_url("contact")); ?>" class="uk-button uk-button-primary uk-button-large uk-border-rounded uk-text-bold">メールでのお問い合わせ</a>
                     </div>
                     <div class="uk-text-center uk-text-left@s">
-                        <a href="<?php echo esc_url(home_url("reservation")); ?>" class="uk-button uk-button-primary uk-button-large uk-border-rounded">ご予約の方はこちらから</a>
+                        <a href="<?php echo esc_url(home_url("reservation")); ?>" class="uk-button uk-button-primary uk-button-large uk-border-rounded uk-text-bold">ご予約の方はこちらから</a>
                     </div>
                 </div>
             </div>
@@ -85,9 +85,9 @@
     <div class="uk-container uk-container-large">
         <div class="uk-flex uk-flex-around uk-flex-middle uk-width-1-1 uk-flex-column uk-flex-row@s">
             <div class="uk-flex uk-flex-column uk-flex-row@m uk-flex-middle">
-                <div class="uk-logo uk-margin-right uk-margin-small-bottom">
+                <div class="uk-logo uk-width-medium uk-margin-right uk-margin-small-bottom">
                     <a href="<?php echo esc_url(home_url("/")); ?>">
-                        <img src="<?php echo esc_url(get_template_directory_uri() . '/images/logo.svg'); ?>" alt="">
+                        <img src="<?php echo esc_url(get_template_directory_uri() . '/images/logo.svg'); ?>" alt="" width="uk-width-expand">
                     </a>
                 </div>
                 <div class="uk-margin-small-bottom">

@@ -30,6 +30,13 @@ Template Name: お問い合わせ
                 </div>
             </div>
             <?php the_content(); ?>
+            <div class="uk-margin-top uk-text-center">
+                <p>送信いただいた内容につきましては、3営業日以内にご返信いたします。</p>
+                <div class="uk-flex uk-flex-middle uk-flex-center uk-flex-gap uk-flex-column uk-flex-row@m">
+                    <p class="uk-margin-remove">営業時間09:00〜18:00</p>
+                    <p class="uk-margin-remove uk-text-lead">0173-26-5888</p>
+                </div>
+            </div>
         </div>
     </section>
 
