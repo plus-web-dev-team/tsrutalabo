@@ -18,17 +18,6 @@ function add_js()
 }
 add_action('wp_enqueue_scripts', 'add_js');
 
-/* =============================================
- フロントエンドのjQueryを無効化
-============================================= */
-function disable_jquery()
-{
-    if (!is_admin()) {
-        wp_deregister_script('jquery');
-        wp_register_script('jquery', false);
-    }
-}
-add_action('wp_enqueue_scripts', 'disable_jquery');
 
 /* =============================================
  ページタイトル | サイトタイトル の形式に設定
