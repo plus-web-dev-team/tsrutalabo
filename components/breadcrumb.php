@@ -24,6 +24,17 @@
             <li><a href="<?php echo get_permalink(get_option('page_for_posts')); ?>"><?php echo get_the_title(get_option('page_for_posts')); ?></a></li>
             <li><span><?php the_title(); ?></span></li>
 
+        <?php elseif (is_category()) : ?>
+            <!-- カテゴリーページの場合にのみカテゴリー階層を表示 -->
+            <?php
+            $category = get_queried_object();
+            if ($category->parent) {
+                $cat_parents = get_category_parents($category->parent, true, '</li><li>');
+                echo '<li>' . $cat_parents . '</li>';
+            }
+            ?>
+            <li><span><?php single_cat_title(); ?></span></li>
+
         <?php endif; ?>
     </ul>
 
@@ -36,8 +47,13 @@
             $page_id = get_the_ID();
         }
 
-        // pagetitleとsubtitleを取得し、存在しない場合はデフォルトのタイトルを表示
-        $page_title = get_post_meta($page_id, 'pagetitle', true) ?: get_the_title($page_id);
+        // カテゴリーページの場合はカテゴリー名を、他の場合はデフォルトのタイトルを表示
+        if (is_category()) {
+            $page_title = single_cat_title('', false);
+        } else {
+            $page_title = get_post_meta($page_id, 'pagetitle', true) ?: get_the_title($page_id);
+        }
+
         $sub_title = get_post_meta($page_id, 'subtitle', true);
         ?>
 

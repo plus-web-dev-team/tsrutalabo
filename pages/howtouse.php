@@ -2,9 +2,9 @@
 /*
 Template Name: ご利用方法
 */
+get_header();
 ?>
 
-<?php get_header(); ?>
 <main>
     <section class="uk-section uk-page-header">
         <div class="uk-container">

@@ -57,3 +57,19 @@ function my_acf_init()
     }
 }
 add_action('acf/init', 'my_acf_init');
+
+
+/* =============================================
+ 送信完了画面へリダイレクト
+============================================= */
+function add_contact_form7_redirect_script()
+{
+?>
+    <script>
+        document.addEventListener('wpcf7mailsent', function(event) {
+            location.href = '<?php echo home_url('/thanks'); ?>';
+        }, false);
+    </script>
+<?php
+}
+add_action('wp_footer', 'add_contact_form7_redirect_script');

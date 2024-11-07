@@ -2,9 +2,9 @@
 /*
 Template Name: 利用者紹介
 */
+get_header();
 ?>
 
-<?php get_header(); ?>
 <main>
     <section class="uk-section uk-page-header">
         <div class="uk-container">

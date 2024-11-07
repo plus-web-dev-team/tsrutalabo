@@ -58,8 +58,9 @@
                     </div>
                     <a class="uk-width-expand uk-button uk-button-primary uk-border-rounded uk-margin-bottom" href="<?php echo home_url("reservation"); ?>">ご予約はこちらから</a>
                     <div>
-                        <form class="uk-search uk-search-default">
-                            <input class="uk-search-input" type="search" placeholder="Search" aria-label="Search">
+                        <form role="search" method="get" class="uk-search uk-search-default" action="<?php echo home_url('/'); ?>">
+                            <input type="search" class="uk-search-input uk-input" placeholder="検索..." value="<?php echo get_search_query(); ?>" name="s" title="Search" />
+                            <button type="submit" class="uk-search-icon-flip" uk-search-icon></button>
                         </form>
                     </div>
                 </div>
