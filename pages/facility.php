@@ -40,11 +40,11 @@ get_header();
             <ul class="uk-switcher uk-margin">
                 <li>
                     <!-- Tab 1 の内容 -->
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/page_facility_header_image01.svg" alt="" class="uk-width-3-4 uk-align-center">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/page_facility_header_image01.svg" alt="施設案内1階マップ" class="uk-width-3-4 uk-align-center">
                 </li>
                 <li>
                     <!-- Tab 2 の内容 -->
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/page_facility_header_image02.svg" alt="" class="uk-width-3-4 uk-align-center">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/page_facility_header_image02.svg" alt="施設案内2階マップ" class="uk-width-3-4 uk-align-center">
                 </li>
             </ul>
         </div>
@@ -57,7 +57,7 @@ get_header();
                     <div class="uk-navbar-subtitle">- historical and modern -</div>木の温かみを感じるモダンな空間
                 </span>
             </h2>
-            <img src="<?php echo get_template_directory_uri(); ?>/images/page_facility_main_image01.svg" alt="" class="uk-position-small uk-position-top-right uk-visible@m uk-width-small">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/page_facility_main_image01.svg" alt="施設の木の温かみが感じられるイメージ画像" class="uk-position-small uk-position-top-right uk-visible@m uk-width-small">
             <div class="uk-width-3-4@m uk-margin-auto uk-margin-large-bottom">
                 <p>旧鶴田町立水元中央小学校は、かつて地域の子どもたちが学びの場として親しんだ歴史的な建物です。その建物が、地域活性化支援センターとして新たな命を吹き込まれました。施設は、昔ながらの温かみある木造校舎の趣を残しつつ、現代的な機能性を兼ね備えた設備に生まれ変わり、「歴史とモダンが融合した空間」を提供しています。</p>
             </div>
@@ -65,7 +65,7 @@ get_header();
                 <div class="uk-slider-items uk-grid">
                     <div class="uk-width-1-1 uk-width-1-2@s uk-width-1-3@m">
                         <div class="uk-panel">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/page_facility_main_image02.png" alt="" class="uk-width-expand uk-margin-bottom">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/page_facility_main_image02.png" alt="スマートロック付きのオフィス画像" class="uk-width-expand uk-margin-bottom">
                             <div>
                                 <h3 class="uk-text-primary">スマートロック常設。24時間入退出可能なオフィス！</h3>
                                 <p class="uk-text-primary">木のぬくもりを感じる70㎡の広々としたスペースで、一般的なオフィスワークのみならず、アーティストさんのアトリエや店舗利用など使い方は無限大。
@@ -76,7 +76,7 @@ get_header();
                     </div>
                     <div class="uk-width-1-1 uk-width-1-2@s uk-width-1-3@m">
                         <div class="uk-panel">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/page_facility_main_image03.png" alt="" class="uk-width-expand uk-margin-bottom">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/page_facility_main_image03.png" alt="ワークスペースのイメージ画像" class="uk-width-expand uk-margin-bottom">
                             <div>
                                 <h3 class="uk-text-primary">１時間からの利用もOK！集中して作業をしたい方のワークスペース</h3>
                                 <p class="uk-text-primary">スマートロック、Wi-Fi、電源、コピー機、個室（1ヵ所）完備。１時間～のドロップインも、月単位での契約も可能です。
@@ -87,7 +87,7 @@ get_header();
                     </div>
                     <div class="uk-width-1-1 uk-width-1-2@s uk-width-1-3@m">
                         <div class="uk-panel">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/page_facility_main_image04.png" alt="" class="uk-width-expand uk-margin-bottom">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/page_facility_main_image04.png" alt="元小学校を利用したイベントスペース画像" class="uk-width-expand uk-margin-bottom">
                             <div>
                                 <h3 class="uk-text-primary">元小学校を活かした、個性あふれるイベントスペース</h3>
                                 <p class="uk-text-primary">シンクがたくさんある元理科室（イベントスペース１）、電源がたくさんある元図工室（イベントスペース２）、調理可能な元家庭科室、広々空間の元コンピューター室、ちょっとした防音の元音楽室、18畳の元茶道室など、使いたい用途にあわせた機能が備わった多様なイベントスペースです。
@@ -97,7 +97,7 @@ get_header();
                     </div>
                     <div class="uk-width-1-1 uk-width-1-2@s uk-width-1-3@m">
                         <div class="uk-panel">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/page_facility_main_image05.png" alt="" class="uk-width-expand uk-margin-bottom">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/page_facility_main_image05.png" alt="チャレンジ専用空間のイメージ画像" class="uk-width-expand uk-margin-bottom">
                             <div>
                                 <h3 class="uk-text-primary">１日～利用可能！催事や販売等のチャレンジ専用空間</h3>
                                 <p class="uk-text-primary">4m×4m。小学校で校長先生が使っていた演台をレジカウンターに利用可能です。
@@ -108,7 +108,7 @@ get_header();
                     </div>
                     <div class="uk-width-1-1 uk-width-1-2@s uk-width-1-3@m">
                         <div class="uk-panel">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/page_facility_main_image06.png" alt="" class="uk-width-expand uk-margin-bottom">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/page_facility_main_image06.png" alt="体育館とグラウンドの画像" class="uk-width-expand uk-margin-bottom">
                             <div>
                                 <h3 class="uk-text-primary">廃校とは思えない綺麗な体育館とグラウンド</h3>
                                 <p class="uk-text-primary">スポーツはもちろん、演劇、ダンス、大規模イベントなど使い方は無限大！

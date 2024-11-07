@@ -42,10 +42,11 @@ get_header();
                         <div>
                             <div class="uk-margin-bottom">
                                 <?php $image = get_field("custom_image");
+                                $custom_alt = get_field("custom_alt"); // ACFで設定されたカスタムaltを取得
                                 if (!empty($image)) : ?>
-                                    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+                                    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr(!empty($custom_alt) ? $custom_alt : $image['alt']); ?>" />
                                 <?php else : ?>
-                                    <img src="<?php echo esc_url(get_template_directory_uri() . '/images/page_residence_header_noimage.png'); ?>" alt="Default Image" />
+                                    <img src="<?php echo esc_url(get_template_directory_uri() . '/images/page_residence_header_noimage.png'); ?>" alt="デフォルト画像" />
                                 <?php endif; ?>
                             </div>
                             <div>

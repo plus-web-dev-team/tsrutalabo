@@ -81,22 +81,22 @@
             <div class="uk-grid uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-4@m uk-grid-small uk-grid-match" uk-grid>
                 <div>
                     <img src="<?php echo get_template_directory_uri(); ?>/images/facility_image01.svg" alt="" class="uk-width-1-2 uk-width-expand@m uk-align-center">
-                    <p class="uk-text-center">貸オフィス</p>
+                    <p class="uk-text-center uk-text-lead">貸オフィス</p>
                     <p class="uk-margin-remove-top">地域外の企業や事業者が、地域の拠点として業務を行える専用オフィススペースを提供。リモートワークや地方での事業拠点として利用可能です。</p>
                 </div>
                 <div>
                     <img src="<?php echo get_template_directory_uri(); ?>/images/facility_image02.svg" alt="" class="uk-width-1-2 uk-width-expand@m uk-align-center">
-                    <p class="uk-text-center">コワーキングスペース</p>
+                    <p class="uk-text-center uk-text-lead">コワーキングスペース</p>
                     <p class="uk-margin-remove-top">フリーランス、起業家、リモートワーカーが自由に利用できる共有オフィススペース。様々な分野の人々が集い、アイデアを共有し、コラボレーションを促進します。</p>
                 </div>
                 <div>
                     <img src="<?php echo get_template_directory_uri(); ?>/images/facility_image03.svg" alt="" class="uk-width-1-2 uk-width-expand@m uk-align-center">
-                    <p class="uk-text-center">イベントスペース</p>
+                    <p class="uk-text-center uk-text-lead">イベントスペース</p>
                     <p class="uk-margin-remove-top">セミナーやワークショップ、地域イベント、展示会など、様々な用途に対応可能な多目的スペース。地域住民や企業が自由に利用でき、交流や学びの場を提供します。</p>
                 </div>
                 <div>
                     <img src="<?php echo get_template_directory_uri(); ?>/images/facility_image04.svg" alt="" class="uk-width-1-2 uk-width-expand@m uk-align-center">
-                    <p class="uk-text-center">シェアショップ</p>
+                    <p class="uk-text-center uk-text-lead">シェアショップ</p>
                     <p class="uk-margin-remove-top">地元の特産品や手工芸品を販売・展示するスペース。地域のクリエイターや生産者が自分の商品を紹介し、販路を広げるためのプラットフォームとして利用できます。</p>
                 </div>
             </div>
