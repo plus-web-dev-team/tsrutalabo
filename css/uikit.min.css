@@ -3828,7 +3828,7 @@ ul.uk-nav-sub {
   margin-left: 10px;
 }
 .uk-pagination > * > :hover {
-  color: #407b3e;
+  /* color: #fff; */
   text-decoration: none;
 }
 .uk-pagination > .uk-active > * {

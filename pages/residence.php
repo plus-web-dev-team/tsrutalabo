@@ -40,11 +40,10 @@ Template Name: 利用者紹介
                     while ($custom_posts->have_posts()) : $custom_posts->the_post();
                 ?>
                         <div>
-                            <div>
+                            <div class="uk-margin-bottom">
                                 <?php $image = get_field("custom_image");
                                 if (!empty($image)) : ?>
                                     <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-                                    <p><?php echo esc_html($image['caption']); ?></p>
                                 <?php else : ?>
                                     <img src="<?php echo esc_url(get_template_directory_uri() . '/images/page_residence_header_noimage.png'); ?>" alt="Default Image" />
                                 <?php endif; ?>
