@@ -35,36 +35,46 @@
             ?>
             <li><span><?php single_cat_title(); ?></span></li>
 
+        <?php elseif (is_search()) : ?>
+            <!-- 検索結果ページの場合 -->
+            <li><span>検索結果</span></li>
+
         <?php endif; ?>
     </ul>
 
     <div class="uk-text-right">
-        <?php
-        // 投稿一覧ページや通常のページ、投稿ページのIDを取得
-        if (is_home()) {
-            $page_id = get_option('page_for_posts');
-        } elseif (is_single() || is_page()) {
-            $page_id = get_the_ID();
-        }
+        <?php if (is_search()) : ?>
+            <p class="uk-heading-medium uk-text-bolder uk-margin-remove uk-text-uppercase">
+                <?php echo esc_html("検索結果"); ?>
+            </p>
+        <?php else : ?>
+            <?php
+            // 投稿一覧ページや通常のページ、投稿ページのIDを取得
+            if (is_home()) {
+                $page_id = get_option('page_for_posts');
+            } elseif (is_single() || is_page()) {
+                $page_id = get_the_ID();
+            }
 
-        // カテゴリーページの場合はカテゴリー名を、他の場合はデフォルトのタイトルを表示
-        if (is_category()) {
-            $page_title = single_cat_title('', false);
-        } else {
-            $page_title = get_post_meta($page_id, 'pagetitle', true) ?: get_the_title($page_id);
-        }
+            // カテゴリーページの場合はカテゴリー名を、他の場合はデフォルトのタイトルを表示
+            if (is_category()) {
+                $page_title = single_cat_title('', false);
+            } else {
+                $page_title = get_post_meta($page_id, 'pagetitle', true) ?: get_the_title($page_id);
+            }
 
-        $sub_title = get_post_meta($page_id, 'subtitle', true);
-        ?>
+            $sub_title = get_post_meta($page_id, 'subtitle', true);
+            ?>
 
-        <p class="uk-heading-medium uk-text-bolder uk-margin-remove uk-text-uppercase">
-            <?php echo esc_html($page_title); ?>
-        </p>
+            <p class="uk-heading-medium uk-text-bolder uk-margin-remove uk-text-uppercase">
+                <?php echo esc_html($page_title); ?>
+            </p>
 
-        <?php if ($sub_title) : ?>
-            <h1 class="uk-text-default uk-margin-remove">
-                <?php echo esc_html($sub_title); ?>
-            </h1>
+            <?php if ($sub_title) : ?>
+                <h1 class="uk-text-default uk-margin-remove">
+                    <?php echo esc_html($sub_title); ?>
+                </h1>
+            <?php endif; ?>
         <?php endif; ?>
     </div>
 </div>

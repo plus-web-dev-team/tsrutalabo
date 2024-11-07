@@ -40,16 +40,30 @@
                     <?php endwhile; ?>
                 </div>
 
-                <div class="uk-margin-large-top">
-                    <?php
-                    the_posts_pagination(array(
-                        'mid_size' => 2,
-                        'prev_text' => __('&laquo; Previous', 'textdomain'),
-                        'next_text' => __('Next &raquo;', 'textdomain'),
-                        'screen_reader_text' => __('Posts navigation', 'textdomain'),
-                        'class' => 'uk-pagination'
-                    ));
-                    ?>
+                <div class="uk-text-center uk-margin-large-top">
+                    <ul class="uk-pagination uk-flex-center uk-margin">
+                        <?php
+                        global $wp_query;
+                        $pagination_links = paginate_links(array(
+                            'total'        => $wp_query->max_num_pages, // $wp_queryのページ数
+                            'current'      => max(1, get_query_var('paged')), // 現在のページ
+                            'prev_text'    => '<span uk-pagination-previous></span>',
+                            'next_text'    => '<span uk-pagination-next></span>',
+                            'type'         => 'array', // リンクを配列で取得
+                        ));
+
+                        if (!empty($pagination_links)) {
+                            foreach ($pagination_links as $link) {
+                                // 現在のページかどうかをチェックして 'uk-active' を追加
+                                if (strpos($link, 'current') !== false) {
+                                    echo '<li class="uk-active">' . $link . '</li>';
+                                } else {
+                                    echo '<li>' . $link . '</li>';
+                                }
+                            }
+                        }
+                        ?>
+                    </ul>
                 </div>
 
             <?php else : ?>

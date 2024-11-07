@@ -73,3 +73,13 @@ function add_contact_form7_redirect_script()
 <?php
 }
 add_action('wp_footer', 'add_contact_form7_redirect_script');
+
+
+/* =============================================
+ 管理画面の「コメント」メニューを削除
+============================================= */
+function remove_comment_menu()
+{
+    remove_menu_page('edit-comments.php');
+}
+add_action('admin_menu', 'remove_comment_menu');
