@@ -76,7 +76,134 @@ get_header();
             </div>
             <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: true">
                 <div class="uk-slider-items uk-grid">
-                    <!-- スライダー項目は変更なし -->
+                    <div class="uk-width-3-4">
+                        <div class="uk-panel">
+                            <div class="uk-card uk-card-default uk-padding uk-border-rounded">
+                                <div class="uk-text-center">
+                                    <h3 class="uk-card-title">コワーキングスペース</h3>
+                                    <p class="uk-text-lead">000,000円</p>
+                                    <p>月額（税込）</p>
+                                </div>
+                                <ul class="uk-list uk-margin-medium-bottom">
+                                    <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
+                                        <span uk-icon="icon: check"></span>高速Wi-Fi、電源完備
+                                    </li>
+                                    <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
+                                        <span uk-icon="icon: check"></span>ドリンクサービス（無料）
+                                    </li>
+                                    <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
+                                        <span uk-icon="icon: check"></span>会員専用の予約システムによる優先席利用
+                                    </li>
+                                    <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
+                                        <span uk-icon="icon: check"></span>オンラインミーティング用ブース利用可（時間予約制）
+                                    </li>
+                                    <li class="uk-border-solid uk-text-muted uk-padding-small uk-padding-remove-left uk-margin-bottom"><span uk-icon="icon: check"></span>プラン内容が入ります</li>
+                                    <li class="uk-border-solid uk-text-muted uk-padding-small uk-padding-remove-left uk-margin-bottom"><span uk-icon="icon: check"></span>プラン内容が入ります</li>
+                                </ul>
+                                <div class="uk-text-center">
+                                    <p><a href="#" class="uk-button uk-button-default uk-border-rounded">必要書類のダウンロードリンク</a></p>
+                                    <p><a href="#" class="uk-button uk-button-default uk-border-rounded">必要書類のダウンロードリンク</a></p>
+                                    <p><a href="#" class="uk-button uk-button-default uk-border-rounded">必要書類のダウンロードリンク</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-width-3-4">
+                        <div class="uk-panel">
+                            <div class="uk-card uk-card-default uk-padding uk-border-rounded">
+                                <div class="uk-text-center">
+                                    <h3 class="uk-card-title">コワーキングスペース</h3>
+                                    <p class="uk-text-lead">000,000円</p>
+                                    <p>月額（税込）</p>
+                                </div>
+                                <ul class="uk-list uk-margin-medium-bottom">
+                                    <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
+                                        <span uk-icon="icon: check"></span>高速Wi-Fi、電源完備
+                                    </li>
+                                    <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
+                                        <span uk-icon="icon: check"></span>ドリンクサービス（無料）
+                                    </li>
+                                    <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
+                                        <span uk-icon="icon: check"></span>会員専用の予約システムによる優先席利用
+                                    </li>
+                                    <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
+                                        <span uk-icon="icon: check"></span>オンラインミーティング用ブース利用可（時間予約制）
+                                    </li>
+                                    <li class="uk-border-solid uk-text-muted uk-padding-small uk-padding-remove-left uk-margin-bottom"><span uk-icon="icon: check"></span>プラン内容が入ります</li>
+                                    <li class="uk-border-solid uk-text-muted uk-padding-small uk-padding-remove-left uk-margin-bottom"><span uk-icon="icon: check"></span>プラン内容が入ります</li>
+                                </ul>
+                                <div class="uk-text-center">
+                                    <p><a href="#" class="uk-button uk-button-default uk-border-rounded">必要書類のダウンロードリンク</a></p>
+                                    <p><a href="#" class="uk-button uk-button-default uk-border-rounded">必要書類のダウンロードリンク</a></p>
+                                    <p><a href="#" class="uk-button uk-button-default uk-border-rounded">必要書類のダウンロードリンク</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-width-3-4">
+                        <div class="uk-panel">
+                            <div class="uk-card uk-card-default uk-padding uk-border-rounded">
+                                <div class="uk-text-center">
+                                    <h3 class="uk-card-title">コワーキングスペース</h3>
+                                    <p class="uk-text-lead">000,000円</p>
+                                    <p>月額（税込）</p>
+                                </div>
+                                <ul class="uk-list uk-margin-medium-bottom">
+                                    <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
+                                        <span uk-icon="icon: check"></span>高速Wi-Fi、電源完備
+                                    </li>
+                                    <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
+                                        <span uk-icon="icon: check"></span>ドリンクサービス（無料）
+                                    </li>
+                                    <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
+                                        <span uk-icon="icon: check"></span>会員専用の予約システムによる優先席利用
+                                    </li>
+                                    <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
+                                        <span uk-icon="icon: check"></span>オンラインミーティング用ブース利用可（時間予約制）
+                                    </li>
+                                    <li class="uk-border-solid uk-text-muted uk-padding-small uk-padding-remove-left uk-margin-bottom"><span uk-icon="icon: check"></span>プラン内容が入ります</li>
+                                    <li class="uk-border-solid uk-text-muted uk-padding-small uk-padding-remove-left uk-margin-bottom"><span uk-icon="icon: check"></span>プラン内容が入ります</li>
+                                </ul>
+                                <div class="uk-text-center">
+                                    <p><a href="#" class="uk-button uk-button-default uk-border-rounded">必要書類のダウンロードリンク</a></p>
+                                    <p><a href="#" class="uk-button uk-button-default uk-border-rounded">必要書類のダウンロードリンク</a></p>
+                                    <p><a href="#" class="uk-button uk-button-default uk-border-rounded">必要書類のダウンロードリンク</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-width-3-4">
+                        <div class="uk-panel">
+                            <div class="uk-card uk-card-default uk-padding uk-border-rounded">
+                                <div class="uk-text-center">
+                                    <h3 class="uk-card-title">コワーキングスペース</h3>
+                                    <p class="uk-text-lead">000,000円</p>
+                                    <p>月額（税込）</p>
+                                </div>
+                                <ul class="uk-list uk-margin-medium-bottom">
+                                    <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
+                                        <span uk-icon="icon: check"></span>高速Wi-Fi、電源完備
+                                    </li>
+                                    <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
+                                        <span uk-icon="icon: check"></span>ドリンクサービス（無料）
+                                    </li>
+                                    <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
+                                        <span uk-icon="icon: check"></span>会員専用の予約システムによる優先席利用
+                                    </li>
+                                    <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
+                                        <span uk-icon="icon: check"></span>オンラインミーティング用ブース利用可（時間予約制）
+                                    </li>
+                                    <li class="uk-border-solid uk-text-muted uk-padding-small uk-padding-remove-left uk-margin-bottom"><span uk-icon="icon: check"></span>プラン内容が入ります</li>
+                                    <li class="uk-border-solid uk-text-muted uk-padding-small uk-padding-remove-left uk-margin-bottom"><span uk-icon="icon: check"></span>プラン内容が入ります</li>
+                                </ul>
+                                <div class="uk-text-center">
+                                    <p><a href="#" class="uk-button uk-button-default uk-border-rounded">必要書類のダウンロードリンク</a></p>
+                                    <p><a href="#" class="uk-button uk-button-default uk-border-rounded">必要書類のダウンロードリンク</a></p>
+                                    <p><a href="#" class="uk-button uk-button-default uk-border-rounded">必要書類のダウンロードリンク</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slider-item="previous"></a>
                 <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slider-item="next"></a>
