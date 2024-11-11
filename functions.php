@@ -83,3 +83,17 @@ function remove_comment_menu()
     remove_menu_page('edit-comments.php');
 }
 add_action('admin_menu', 'remove_comment_menu');
+
+
+/* =============================================
+ reCAPTCHA contactページ以外で読み込まない
+============================================= */
+function google_recaptcha_v3()
+{
+    if (!is_page('contact')) {
+        // 複数のページ
+        // if (!is_page(array('contact', 'entry'))) {
+        wp_deregister_script('google-recaptcha');
+    }
+}
+add_action('wp_enqueue_scripts', 'google_recaptcha_v3', 99);
