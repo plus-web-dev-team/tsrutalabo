@@ -11,21 +11,17 @@
                         お問い合わせ・ご予約はこちら！
                     </span>
                 </h2>
-                <p class="uk-text-center">
-                    ビジネスやコミュニティ活動の拠点として、どなたでもご利用いただけます。<br>
-                    まずはお気軽にお問い合わせください！<br>
-                    地域の活性化に向けた第一歩を、このセンターから始めませんか？
-                </p>
                 <div class="uk-align-center uk-text-center uk-text-large">
                     <p class="uk-margin-remove">営業時間09:00〜18:00</p>
                     <p class="uk-margin-remove uk-heading-medium">0173-26-5888</p>
+                    <p class="uk-margin-remove">mottainai.research@gmail.com</p>
                 </div>
                 <div class="uk-grid uk-grid-medium uk-child-width-1-1 uk-child-width-1-2@s" uk-grid>
                     <div class="uk-text-center uk-text-right@s">
-                        <a href="<?php echo esc_url(home_url("contact")); ?>" class="uk-button uk-button-primary uk-button-large uk-border-rounded uk-text-bold">メールでのお問い合わせ</a>
+                        <a href="<?php echo esc_url(home_url("contact")); ?>" class="uk-button uk-button-primary uk-button-large uk-border-rounded uk-text-bold">専用フォームからのお問い合わせ</a>
                     </div>
                     <div class="uk-text-center uk-text-left@s">
-                        <a href="<?php echo esc_url(home_url("reservation")); ?>" class="uk-button uk-button-primary uk-button-large uk-border-rounded uk-text-bold">ご予約の方はこちらから</a>
+                        <a href="<?php echo esc_url(home_url("reservation")); ?>" class="uk-button uk-button-primary uk-button-large uk-border-rounded uk-text-bold">WEB予約はこちらから</a>
                     </div>
                 </div>
             </div>
@@ -91,9 +87,7 @@
                     </a>
                 </div>
                 <div class="uk-margin-small-bottom">
-                    <a href="#" uk-icon="icon: twitter"></a>
-                    <a href="#" uk-icon="icon: facebook"></a>
-                    <a href="#" uk-icon="icon: instagram"></a>
+                    <a href="https://www.instagram.com/mottainai.research" uk-icon="icon: instagram" target="_blank" rel="noopener noreferrer"></a>
                 </div>
             </div>
             <div class="uk-flex uk-flex-column uk-flex-row@m uk-flex-middle">
@@ -103,7 +97,7 @@
                         <div class="uk-navbar-subtitle uk-text-large">0173-26-5888</div>
                     </div>
                 </a>
-                <a class="uk-button uk-button-default uk-border-rounded" href="<?php echo esc_url(home_url("reservation")); ?>">ご予約はこちらから</a>
+                <a class="uk-button uk-button-default uk-border-rounded" href="<?php echo esc_url(home_url("reservation")); ?>">WEB予約はこちらから</a>
             </div>
         </div>
         <hr>
