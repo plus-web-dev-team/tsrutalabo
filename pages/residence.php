@@ -40,13 +40,13 @@ get_header();
                     while ($custom_posts->have_posts()) : $custom_posts->the_post();
                 ?>
                         <div>
-                            <div class="uk-margin-bottom">
+                            <div class="uk-margin-bottom uk-position-relative">
                                 <?php $image = get_field("custom_image");
                                 $custom_alt = get_field("custom_alt"); // ACFで設定されたカスタムaltを取得
                                 if (!empty($image)) : ?>
-                                    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr(!empty($custom_alt) ? $custom_alt : $image['alt']); ?>" />
+                                    <div class="uk-image-ornament"><img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr(!empty($custom_alt) ? $custom_alt : $image['alt']); ?>" /></div>
                                 <?php else : ?>
-                                    <img src="<?php echo esc_url(get_template_directory_uri() . '/images/page_residence_header_noimage.png'); ?>" alt="デフォルト画像" />
+                                    <div class="uk-image-ornament"><img src="<?php echo esc_url(get_template_directory_uri() . '/images/page_residence_header_noimage.svg'); ?>" alt="デフォルト画像" /></div>
                                 <?php endif; ?>
                             </div>
                             <div>

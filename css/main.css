@@ -93,3 +93,33 @@ span.wpcf7-list-item {
 div.wpcf7 .wpcf7-spinner {
   display: none !important;
 }
+
+.uk-image-ornament::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 25%;
+  background-image: url("../images/ornament_left.svg");
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  opacity: 1;
+  z-index: 2;
+}
+
+.uk-image-ornament::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 25%;
+  height: 25%;
+  background-image: url("../images/ornament_right.svg");
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  opacity: 1;
+  z-index: 2;
+}

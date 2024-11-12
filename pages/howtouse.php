@@ -27,8 +27,8 @@ get_header();
             <div>
                 <div class="uk-background-default uk-padding uk-flex uk-flex-column uk-flex-row@s uk-flex-middle uk-flex-between uk-flex-gap">
                     <div class="uk-width-expand">
-                        <h3 class="uk-text-bold uk-text-center uk-text-left@s">お問い合わせ・見学予約</h3>
-                        <p>まずはお問い合わせフォームから見学予約や利用に関するご質問をお送りください。スタッフが詳しいご案内をいたします。</p>
+                        <h3 class="uk-text-bold uk-text-center uk-text-left@s">見学予約・お問い合わせ（必要に応じて）</h3>
+                        <p>必要に応じて、お問い合わせフォームから見学予約や利用に関するご質問をお送りください。スタッフが詳しいご案内をいたします。</p>
                     </div>
                     <div class="uk-width-auto">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/page_howtouse_header_image01.svg" alt="お問い合わせ・見学予約の手順イメージ">
@@ -39,8 +39,8 @@ get_header();
                 </div>
                 <div class="uk-background-default uk-padding uk-flex uk-flex-column uk-flex-row@s uk-flex-middle uk-flex-between uk-flex-gap">
                     <div class="uk-width-expand">
-                        <h3 class="uk-text-bold uk-text-center uk-text-left@s">プラン選択と契約手続き</h3>
-                        <p>ご利用いただくスペース（貸オフィス、コワーキングスペースなど）とプランを選び、契約手続きを行います。必要に応じて、支払い方法のご相談も可能です。</p>
+                        <h3 class="uk-text-bold uk-text-center uk-text-left@s">空き状況の確認</h3>
+                        <p>ご利用いただくスペース（イベントスペース、体育館など）の空き状況を、メールorお電話にてご確認ください。</p>
                     </div>
                     <div class="uk-width-auto">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/page_howtouse_header_image02.svg" alt="プラン選択と契約手続きのイメージ">
@@ -51,8 +51,32 @@ get_header();
                 </div>
                 <div class="uk-background-default uk-padding uk-flex uk-flex-column uk-flex-row@s uk-flex-middle uk-flex-between uk-flex-gap">
                     <div class="uk-width-expand">
-                        <h3 class="uk-text-bold uk-text-center uk-text-left@s">お問い合わせ・見学予約</h3>
-                        <p>まずはお問い合わせフォームから見学予約や利用に関するご質問をお送りください。スタッフが詳しいご案内をいたします。</p>
+                        <h3 class="uk-text-bold uk-text-center uk-text-left@s">利用予約（会員登録）</h3>
+                        <p>ご利用いただくスペースと日時を、メールorお電話にてお知らせください。その際、会員登録のご案内をいたします。</p>
+                    </div>
+                    <div class="uk-width-auto">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/page_howtouse_header_image03.svg" alt="お問い合わせ・見学予約のイメージ">
+                    </div>
+                </div>
+                <div class="uk-text-center">
+                    <span uk-icon="icon: triangle-down; ratio: 2"></span>
+                </div>
+                <div class="uk-background-default uk-padding uk-flex uk-flex-column uk-flex-row@s uk-flex-middle uk-flex-between uk-flex-gap">
+                    <div class="uk-width-expand">
+                        <h3 class="uk-text-bold uk-text-center uk-text-left@s">利用料金のお支払い</h3>
+                        <p>ご利用前までに、利用料金をお支払いください。施設窓口での現金払いorオンライン決済をご利用いただけます。</p>
+                    </div>
+                    <div class="uk-width-auto">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/page_howtouse_header_image03.svg" alt="お問い合わせ・見学予約のイメージ">
+                    </div>
+                </div>
+                <div class="uk-text-center">
+                    <span uk-icon="icon: triangle-down; ratio: 2"></span>
+                </div>
+                <div class="uk-background-default uk-padding uk-flex uk-flex-column uk-flex-row@s uk-flex-middle uk-flex-between uk-flex-gap">
+                    <div class="uk-width-expand">
+                        <h3 class="uk-text-bold uk-text-center uk-text-left@s">ご利用開始！</h3>
+                        <p>予約いただいた日時に来館いただき、ご利用ください。</p>
                     </div>
                     <div class="uk-width-auto">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/page_howtouse_header_image03.svg" alt="お問い合わせ・見学予約のイメージ">
