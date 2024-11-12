@@ -67,7 +67,7 @@ get_header();
                         <p>ご利用前までに、利用料金をお支払いください。施設窓口での現金払いorオンライン決済をご利用いただけます。</p>
                     </div>
                     <div class="uk-width-auto">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/page_howtouse_header_image03.svg" alt="お問い合わせ・見学予約のイメージ">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/page_howtouse_header_image04.svg" alt="お問い合わせ・見学予約のイメージ">
                     </div>
                 </div>
                 <div class="uk-text-center">
@@ -77,9 +77,11 @@ get_header();
                     <div class="uk-width-expand">
                         <h3 class="uk-text-bold uk-text-center uk-text-left@s">ご利用開始！</h3>
                         <p>予約いただいた日時に来館いただき、ご利用ください。</p>
+                        <p>※ＷＥＢでの空き状況確認・予約は現在準備中です。<br>
+                            ※貸オフィスのご利用については、<a href="<?php echo home_url("/contact"); ?>" class="uk-text-decoration-none uk-border-solid">お問い合わせフォーム</a>よりご相談ください。折り返し、詳細のご案内をいたします。</p>
                     </div>
                     <div class="uk-width-auto">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/page_howtouse_header_image03.svg" alt="お問い合わせ・見学予約のイメージ">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/page_howtouse_header_image05.svg" alt="お問い合わせ・見学予約のイメージ">
                     </div>
                 </div>
             </div>
@@ -95,39 +97,40 @@ get_header();
             </h2>
             <div class="uk-margin-auto uk-width-fit uk-margin-large-bottom">
                 <div class="uk-width-3-4@m uk-margin-auto">
-                    <p>地域活性化支援センターでは、施設内の様々なスペースやサービスを、利用者のニーズに応じて柔軟にご利用いただけるよう、明確な料金体系を設けています。以下は、貸オフィス、コワーキングスペース、イベントスペース、シェアショップなどの利用に関する料金詳細です。</p>
+                    <p>TSURUTA LABOでは、施設内の様々なスペースやサービスを、利用者のニーズに応じて柔軟にご利用いただける料金体系を設けています。</p>
+                    <p class="uk-margin-remove">※すべて税込表示です。</p>
+                    <p class="uk-margin-remove">※大型ディスプレイ、レジ設備等、備品の貸し出しも行っております。<a href="" class="uk-text-decoration-none uk-border-solid">詳しくはこちら</a></p>
                 </div>
             </div>
-            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: true">
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: true; autoplay: true; autoplay-interval: 3000">
                 <div class="uk-slider-items uk-grid">
                     <div class="uk-width-3-4">
                         <div class="uk-panel">
                             <div class="uk-card uk-card-default uk-padding uk-border-rounded">
                                 <div class="uk-text-center">
                                     <h3 class="uk-card-title">コワーキングスペース</h3>
-                                    <p class="uk-text-lead">000,000円</p>
-                                    <p>月額（税込）</p>
+                                    <p>利用時間<span class="uk-margin-left">9:00～18:00</span></p>
+                                    <p class="uk-margin-remove">月額利用</p>
+                                    <p><span class="uk-heading-large uk-text-primary uk-margin-remove">8,000</span>円</p>
+                                    <ul class="uk-list">
+                                        <li>1時間あたり<span class="uk-heading-small uk-text-primary uk-margin-left">300</span>円</li>
+                                        <li>日額利用<span class="uk-heading-small uk-text-primary uk-margin-left">1,000</span>円</li>
+                                    </ul>
                                 </div>
                                 <ul class="uk-list uk-margin-medium-bottom">
                                     <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
-                                        <span uk-icon="icon: check"></span>高速Wi-Fi、電源完備
+                                        <span uk-icon="icon: check"></span>高速Wi-Fi、電源、コピー機完備
                                     </li>
                                     <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
-                                        <span uk-icon="icon: check"></span>ドリンクサービス（無料）
+                                        <span uk-icon="icon: check"></span>スマートロックによる入退室
                                     </li>
                                     <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
-                                        <span uk-icon="icon: check"></span>会員専用の予約システムによる優先席利用
+                                        <span uk-icon="icon: check"></span>WEB会議用ブース利用可（時間予約制）
                                     </li>
-                                    <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
-                                        <span uk-icon="icon: check"></span>オンラインミーティング用ブース利用可（時間予約制）
-                                    </li>
-                                    <li class="uk-border-solid uk-text-muted uk-padding-small uk-padding-remove-left uk-margin-bottom"><span uk-icon="icon: check"></span>プラン内容が入ります</li>
-                                    <li class="uk-border-solid uk-text-muted uk-padding-small uk-padding-remove-left uk-margin-bottom"><span uk-icon="icon: check"></span>プラン内容が入ります</li>
                                 </ul>
-                                <div class="uk-text-center">
-                                    <p><a href="#" class="uk-button uk-button-default uk-border-rounded">必要書類のダウンロードリンク</a></p>
-                                    <p><a href="#" class="uk-button uk-button-default uk-border-rounded">必要書類のダウンロードリンク</a></p>
-                                    <p><a href="#" class="uk-button uk-button-default uk-border-rounded">必要書類のダウンロードリンク</a></p>
+                                <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-gap">
+                                    <p class="uk-margin-remove"><a href="<?php echo home_url("/contact"); ?>" class="uk-button uk-button-default uk-border-rounded">お問い合わせ</a></p>
+                                    <p class="uk-margin-remove"><a href="<?php echo home_url("/reservation"); ?>" class="uk-button uk-button-default uk-border-rounded">WEB予約する</a></p>
                                 </div>
                             </div>
                         </div>
@@ -136,30 +139,29 @@ get_header();
                         <div class="uk-panel">
                             <div class="uk-card uk-card-default uk-padding uk-border-rounded">
                                 <div class="uk-text-center">
-                                    <h3 class="uk-card-title">コワーキングスペース</h3>
-                                    <p class="uk-text-lead">000,000円</p>
-                                    <p>月額（税込）</p>
+                                    <h3 class="uk-card-title uk-margin-remove">イベントスペース</h3>
+                                    <p class="uk-margin-remove">（旧理科室・図工室・家庭科室・コンピューター室・音楽室・茶道室等）</p>
+                                    <p>利用時間<span class="uk-margin-left">9:00～18:00</span></p>
+                                    <p class="uk-margin-remove">日額利用</p>
+                                    <p><span class="uk-heading-large uk-text-primary uk-margin-remove">5,000</span>円</p>
+                                    <ul class="uk-list">
+                                        <li>1時間あたり<span class="uk-heading-small uk-text-primary uk-margin-left">600</span>円</li>
+                                    </ul>
                                 </div>
                                 <ul class="uk-list uk-margin-medium-bottom">
                                     <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
-                                        <span uk-icon="icon: check"></span>高速Wi-Fi、電源完備
+                                        <span uk-icon="icon: check"></span>高校生以下は半額
                                     </li>
                                     <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
-                                        <span uk-icon="icon: check"></span>ドリンクサービス（無料）
+                                        <span uk-icon="icon: check"></span>スマートロックによる入退室（一部、物理鍵あり）
                                     </li>
                                     <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
-                                        <span uk-icon="icon: check"></span>会員専用の予約システムによる優先席利用
+                                        <span uk-icon="icon: check"></span>レイアウトのカスタマイズ可（机、椅子の配置等）
                                     </li>
-                                    <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
-                                        <span uk-icon="icon: check"></span>オンラインミーティング用ブース利用可（時間予約制）
-                                    </li>
-                                    <li class="uk-border-solid uk-text-muted uk-padding-small uk-padding-remove-left uk-margin-bottom"><span uk-icon="icon: check"></span>プラン内容が入ります</li>
-                                    <li class="uk-border-solid uk-text-muted uk-padding-small uk-padding-remove-left uk-margin-bottom"><span uk-icon="icon: check"></span>プラン内容が入ります</li>
                                 </ul>
-                                <div class="uk-text-center">
-                                    <p><a href="#" class="uk-button uk-button-default uk-border-rounded">必要書類のダウンロードリンク</a></p>
-                                    <p><a href="#" class="uk-button uk-button-default uk-border-rounded">必要書類のダウンロードリンク</a></p>
-                                    <p><a href="#" class="uk-button uk-button-default uk-border-rounded">必要書類のダウンロードリンク</a></p>
+                                <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-gap">
+                                    <p class="uk-margin-remove"><a href="<?php echo home_url("/contact"); ?>" class="uk-button uk-button-default uk-border-rounded">お問い合わせ</a></p>
+                                    <p class="uk-margin-remove"><a href="<?php echo home_url("/reservation"); ?>" class="uk-button uk-button-default uk-border-rounded">WEB予約する</a></p>
                                 </div>
                             </div>
                         </div>
@@ -168,30 +170,31 @@ get_header();
                         <div class="uk-panel">
                             <div class="uk-card uk-card-default uk-padding uk-border-rounded">
                                 <div class="uk-text-center">
-                                    <h3 class="uk-card-title">コワーキングスペース</h3>
-                                    <p class="uk-text-lead">000,000円</p>
-                                    <p>月額（税込）</p>
+                                    <h3 class="uk-card-title">シェアショップ</h3>
+                                    <p>利用時間<span class="uk-margin-left">9:00～18:00</span></p>
+                                    <p class="uk-margin-remove">日額利用</p>
+                                    <p><span class="uk-heading-large uk-text-primary uk-margin-remove">3,000</span>円</p>
                                 </div>
                                 <ul class="uk-list uk-margin-medium-bottom">
+                                    <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
+                                        <span uk-icon="icon: check"></span>高校生以下は半額
+                                    </li>
                                     <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
                                         <span uk-icon="icon: check"></span>高速Wi-Fi、電源完備
                                     </li>
                                     <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
-                                        <span uk-icon="icon: check"></span>ドリンクサービス（無料）
+                                        <span uk-icon="icon: check"></span>スマートロックによる入退室
                                     </li>
                                     <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
-                                        <span uk-icon="icon: check"></span>会員専用の予約システムによる優先席利用
+                                        <span uk-icon="icon: check"></span>レジ設備の貸し出し可（エアレジ・有料）
                                     </li>
                                     <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
-                                        <span uk-icon="icon: check"></span>オンラインミーティング用ブース利用可（時間予約制）
+                                        <span uk-icon="icon: check"></span>レイアウトのカスタマイズ可（レジカウンターの配置等）
                                     </li>
-                                    <li class="uk-border-solid uk-text-muted uk-padding-small uk-padding-remove-left uk-margin-bottom"><span uk-icon="icon: check"></span>プラン内容が入ります</li>
-                                    <li class="uk-border-solid uk-text-muted uk-padding-small uk-padding-remove-left uk-margin-bottom"><span uk-icon="icon: check"></span>プラン内容が入ります</li>
                                 </ul>
-                                <div class="uk-text-center">
-                                    <p><a href="#" class="uk-button uk-button-default uk-border-rounded">必要書類のダウンロードリンク</a></p>
-                                    <p><a href="#" class="uk-button uk-button-default uk-border-rounded">必要書類のダウンロードリンク</a></p>
-                                    <p><a href="#" class="uk-button uk-button-default uk-border-rounded">必要書類のダウンロードリンク</a></p>
+                                <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-gap">
+                                    <p class="uk-margin-remove"><a href="<?php echo home_url("/contact"); ?>" class="uk-button uk-button-default uk-border-rounded">お問い合わせ</a></p>
+                                    <p class="uk-margin-remove"><a href="<?php echo home_url("/reservation"); ?>" class="uk-button uk-button-default uk-border-rounded">WEB予約する</a></p>
                                 </div>
                             </div>
                         </div>
@@ -200,30 +203,118 @@ get_header();
                         <div class="uk-panel">
                             <div class="uk-card uk-card-default uk-padding uk-border-rounded">
                                 <div class="uk-text-center">
-                                    <h3 class="uk-card-title">コワーキングスペース</h3>
-                                    <p class="uk-text-lead">000,000円</p>
-                                    <p>月額（税込）</p>
+                                    <h3 class="uk-card-title">会議室</h3>
+                                    <p>利用時間<span class="uk-margin-left">9:00～18:00</span></p>
+                                    <p class="uk-margin-remove">1時間あたり</p>
+                                    <p><span class="uk-heading-large uk-text-primary uk-margin-remove">300</span>円</p>
                                 </div>
                                 <ul class="uk-list uk-margin-medium-bottom">
                                     <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
                                         <span uk-icon="icon: check"></span>高速Wi-Fi、電源完備
                                     </li>
                                     <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
-                                        <span uk-icon="icon: check"></span>ドリンクサービス（無料）
+                                        <span uk-icon="icon: check"></span>スマートロックによる入退室
                                     </li>
                                     <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
-                                        <span uk-icon="icon: check"></span>会員専用の予約システムによる優先席利用
+                                        <span uk-icon="icon: check"></span>最大収容人数<span class="uk-margin-small-left">10名</span>
                                     </li>
                                     <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
-                                        <span uk-icon="icon: check"></span>オンラインミーティング用ブース利用可（時間予約制）
+                                        <span uk-icon="icon: check"></span>レイアウトのカスタマイズ可（机、椅子の配置等）
                                     </li>
-                                    <li class="uk-border-solid uk-text-muted uk-padding-small uk-padding-remove-left uk-margin-bottom"><span uk-icon="icon: check"></span>プラン内容が入ります</li>
-                                    <li class="uk-border-solid uk-text-muted uk-padding-small uk-padding-remove-left uk-margin-bottom"><span uk-icon="icon: check"></span>プラン内容が入ります</li>
                                 </ul>
+                                <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-gap">
+                                    <p class="uk-margin-remove"><a href="<?php echo home_url("/contact"); ?>" class="uk-button uk-button-default uk-border-rounded">お問い合わせ</a></p>
+                                    <p class="uk-margin-remove"><a href="<?php echo home_url("/reservation"); ?>" class="uk-button uk-button-default uk-border-rounded">WEB予約する</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-width-3-4">
+                        <div class="uk-panel">
+                            <div class="uk-card uk-card-default uk-padding uk-border-rounded">
                                 <div class="uk-text-center">
-                                    <p><a href="#" class="uk-button uk-button-default uk-border-rounded">必要書類のダウンロードリンク</a></p>
-                                    <p><a href="#" class="uk-button uk-button-default uk-border-rounded">必要書類のダウンロードリンク</a></p>
-                                    <p><a href="#" class="uk-button uk-button-default uk-border-rounded">必要書類のダウンロードリンク</a></p>
+                                    <h3 class="uk-card-title">体育館</h3>
+                                    <p>利用時間<span class="uk-margin-left">9:00～22:00</span></p>
+                                    <p class="uk-margin-remove">1時間あたり</p>
+                                    <p>大人1名<span class="uk-heading-large uk-text-primary uk-margin-remove">100</span>円</p>
+                                    <ul class="uk-list">
+                                        <li>団体（大人8名以上）<span class="uk-heading-small uk-text-primary uk-margin-left">800</span>円</li>
+                                    </ul>
+                                </div>
+                                <ul class="uk-list uk-margin-medium-bottom">
+                                    <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
+                                        <span uk-icon="icon: check"></span>高校生以下無料
+                                    </li>
+                                    <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
+                                        <span uk-icon="icon: check"></span>スポーツ・演劇・ダンス・大規模イベント等にも
+                                    </li>
+                                    <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
+                                        <span uk-icon="icon: check"></span>スマートロックによる入退館
+                                    </li>
+                                </ul>
+                                <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-gap">
+                                    <p class="uk-margin-remove"><a href="<?php echo home_url("/contact"); ?>" class="uk-button uk-button-default uk-border-rounded">お問い合わせ</a></p>
+                                    <p class="uk-margin-remove"><a href="<?php echo home_url("/reservation"); ?>" class="uk-button uk-button-default uk-border-rounded">WEB予約する</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-width-3-4">
+                        <div class="uk-panel">
+                            <div class="uk-card uk-card-default uk-padding uk-border-rounded">
+                                <div class="uk-text-center">
+                                    <h3 class="uk-card-title">グラウンド</h3>
+                                    <p>利用時間<span class="uk-margin-left">9:00～18:00</span></p>
+                                    <p class="uk-margin-remove">1時間あたり</p>
+                                    <p>大人1名<span class="uk-heading-large uk-text-primary uk-margin-remove">100</span>円</p>
+                                    <ul class="uk-list">
+                                        <li>団体（大人8名以上）<span class="uk-heading-small uk-text-primary uk-margin-left">800</span>円</li>
+                                    </ul>
+                                </div>
+                                <ul class="uk-list uk-margin-medium-bottom">
+                                    <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
+                                        <span uk-icon="icon: check"></span>高校生以下無料
+                                    </li>
+                                    <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
+                                        <span uk-icon="icon: check"></span>スポーツ・大規模イベント等にも
+                                    </li>
+                                </ul>
+                                <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-gap">
+                                    <p class="uk-margin-remove"><a href="<?php echo home_url("/contact"); ?>" class="uk-button uk-button-default uk-border-rounded">お問い合わせ</a></p>
+                                    <p class="uk-margin-remove"><a href="<?php echo home_url("/reservation"); ?>" class="uk-button uk-button-default uk-border-rounded">WEB予約する</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-width-3-4">
+                        <div class="uk-panel">
+                            <div class="uk-card uk-card-default uk-padding uk-border-rounded">
+                                <div class="uk-text-center">
+                                    <h3 class="uk-card-title">貸オフィス</h3>
+                                    <p class="uk-margin-remove">月額利用</p>
+                                    <p><span class="uk-heading-large uk-text-primary uk-margin-remove">40,000</span>円</p>
+                                    <ul class="uk-list">
+                                        <li>空調設備管理費<span class="uk-heading-small uk-text-primary uk-margin-left">3,000</span>円/月</li>
+                                        <li>共通管理費<span class="uk-heading-small uk-text-primary uk-margin-left">3,000</span>円/月</li>
+                                    </ul>
+                                </div>
+                                <ul class="uk-list uk-margin-medium-bottom">
+                                    <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
+                                        <span uk-icon="icon: check"></span>高速Wi-Fi、電源完備
+                                    </li>
+                                    <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
+                                        <span uk-icon="icon: check"></span>スマートロックによる入退室
+                                    </li>
+                                    <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
+                                        <span uk-icon="icon: check"></span>24時間入退室可
+                                    </li>
+                                    <li class="uk-border-solid uk-padding-small uk-padding-remove-left uk-margin-bottom">
+                                        <span uk-icon="icon: check"></span>施設への協力による利用料減免制度あり（詳しくはお尋ねください）
+                                    </li>
+                                </ul>
+                                <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-gap">
+                                    <p class="uk-margin-remove"><a href="<?php echo home_url("/contact"); ?>" class="uk-button uk-button-default uk-border-rounded">お問い合わせ</a></p>
+                                    <p class="uk-margin-remove"><a href="<?php echo home_url("/reservation"); ?>" class="uk-button uk-button-default uk-border-rounded">WEB予約する</a></p>
                                 </div>
                             </div>
                         </div>
@@ -231,47 +322,7 @@ get_header();
                 </div>
                 <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slider-item="previous"></a>
                 <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slider-item="next"></a>
-            </div>
-        </div>
-    </section>
-
-    <section class="uk-section" id="rhowtouse_footer">
-        <div class="uk-container">
-            <div class="uk-child-width-1-2@s" uk-grid>
-                <div>
-                    <div class="uk-card uk-card-primary uk-card-body">
-                        <h3 class="uk-text-center">シェアショップ</h3>
-                        <p>
-                            地域の手作り品やアート作品を展示・販売できるスペースです。店舗を持たずに商品を展開したい方に最適です。
-                        </p>
-                        <p class="uk-text-center"><a href="">必要書類のダウンロードリンク</a></p>
-                    </div>
-                </div>
-                <div>
-                    <div class="uk-card uk-card-primary uk-card-body">
-                        <h3 class="uk-text-center">会議室</h3>
-                        <p>
-                            少人数での打ち合わせや会議にご利用いただける個室の会議室です。
-                        </p>
-                        <p class="uk-text-center"><a href="">必要書類のダウンロードリンク</a></p>
-                    </div>
-                </div>
-                <div>
-                    <div class="uk-card uk-card-primary uk-card-body">
-                        <h3 class="uk-text-center">その他のサービス</h3>
-                        <p>
-                            快適かつ便利にご利用いただけるよう、様々な追加サービスも提供しています。ご利用者のニーズに応じたサービスをご用意し、より充実した施設利用をサポートします。
-                        </p>
-                        <p class="uk-text-center"><a href="">必要書類のダウンロードリンク</a></p>
-                    </div>
-                </div>
-                <div>
-                    <div class="uk-card">
-                        <div class="uk-flex uk-flex-middle uk-flex-center">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/page_howtouse_header_image04.svg" alt="施設利用のイメージ図">
-                        </div>
-                    </div>
-                </div>
+                <ul class="uk-flex uk-flex-center uk-slider-nav uk-dotnav uk-margin-large"></ul>
             </div>
         </div>
     </section>

@@ -162,14 +162,17 @@
                                     <p class="uk-margin-remove-top"><?php echo esc_html($description); ?></p>
                                 <?php endif; ?>
                                 <div class="uk-margin-small-bottom">
+                                    <?php if ($site = get_field("custom_site")) : ?>
+                                        <a href="<?php echo esc_url($site); ?>" uk-icon="icon: world" target="_blank" rel="noopener noreferrer"></a>
+                                    <?php endif; ?>
                                     <?php if ($twitter = get_field("custom_twitter")) : ?>
-                                        <a href="<?php echo esc_url($twitter); ?>" uk-icon="icon: twitter"></a>
+                                        <a href="<?php echo esc_url($twitter); ?>" uk-icon="icon: twitter" target="_blank" rel="noopener noreferrer"></a>
                                     <?php endif; ?>
                                     <?php if ($facebook = get_field("custom_facebook")) : ?>
-                                        <a href="<?php echo esc_url($facebook); ?>" uk-icon="icon: facebook"></a>
+                                        <a href="<?php echo esc_url($facebook); ?>" uk-icon="icon: facebook" target="_blank" rel="noopener noreferrer"></a>
                                     <?php endif; ?>
                                     <?php if ($instagram = get_field("custom_instagram")) : ?>
-                                        <a href="<?php echo esc_url($instagram); ?>" uk-icon="icon: instagram"></a>
+                                        <a href="<?php echo esc_url($instagram); ?>" uk-icon="icon: instagram" target="_blank" rel="noopener noreferrer"></a>
                                     <?php endif; ?>
                                 </div>
                                 <?php if ($google_map = get_field("custom_google_map")) : ?>

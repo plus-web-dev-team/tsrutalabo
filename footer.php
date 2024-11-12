@@ -117,7 +117,7 @@
         <div class="uk-container">
             <div class="uk-flex uk-flex-middle uk-flex-around uk-text-small uk-padding-small uk-flex-column uk-flex-row@s">
                 <p class="uk-margin-remove">
-                    <a href="<?php echo esc_url(home_url("privacy")); ?>" class="uk-text-white">個人情報保護方針</a>
+                    <a href="<?php echo esc_url(home_url("privacy")); ?>" class="uk-text-white">プライバシーポリシー</a>
                 </p>
                 <p class="uk-margin-remove">© TSURUTA LABO. All Rights reserved.</p>
             </div>
