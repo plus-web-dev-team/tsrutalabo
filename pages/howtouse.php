@@ -235,10 +235,10 @@ get_header();
                                 <div class="uk-text-center">
                                     <h3 class="uk-card-title">体育館</h3>
                                     <p>利用時間<span class="uk-margin-left">9:00～22:00</span></p>
-                                    <p class="uk-margin-remove">1時間あたり</p>
-                                    <p>大人1名<span class="uk-heading-large uk-text-primary uk-margin-remove">100</span>円</p>
+                                    <p class="uk-margin-remove">団体（大人8名以上）</p>
+                                    <p><span class="uk-heading-large uk-text-primary uk-margin-remove">800</span>円</p>
                                     <ul class="uk-list">
-                                        <li>団体（大人8名以上）<span class="uk-heading-small uk-text-primary uk-margin-left">800</span>円</li>
+                                        <li>1時間あたり 大人1名<span class="uk-heading-small uk-text-primary uk-margin-left">100</span>円</li>
                                     </ul>
                                 </div>
                                 <ul class="uk-list uk-margin-medium-bottom">
@@ -265,10 +265,10 @@ get_header();
                                 <div class="uk-text-center">
                                     <h3 class="uk-card-title">グラウンド</h3>
                                     <p>利用時間<span class="uk-margin-left">9:00～18:00</span></p>
-                                    <p class="uk-margin-remove">1時間あたり</p>
-                                    <p>大人1名<span class="uk-heading-large uk-text-primary uk-margin-remove">100</span>円</p>
+                                    <p class="uk-margin-remove">団体（大人8名以上）</p>
+                                    <p><span class="uk-heading-large uk-text-primary uk-margin-remove">800</span>円</p>
                                     <ul class="uk-list">
-                                        <li>団体（大人8名以上）<span class="uk-heading-small uk-text-primary uk-margin-left">800</span>円</li>
+                                        <li>1時間あたり 大人1名<span class="uk-heading-small uk-text-primary uk-margin-left">100</span>円</li>
                                     </ul>
                                 </div>
                                 <ul class="uk-list uk-margin-medium-bottom">

@@ -8,9 +8,36 @@
                     </span>
                 </h2>
                 <div>
-                    <p>この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れていますこの文章はダミーです
-                        文字の大きさ・量・字間・行間等を確認するために入れています
-                        この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています文字の大きさ・量・字間・行間等を確認するために入れていますこの文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています</p>
+                    <ul class="uk-list">
+                        <li>
+                            <div class="uk-flex uk-flex-left uk-flex-middle uk-flex-column uk-flex-row@m uk-flex-gap">
+                                <p class="uk-margin-remove uk-width-1-3 uk-text-bolder">所在地</p>
+                                <p class="uk-margin-remove uk-width-expand">青森県北津軽郡鶴田町大字妙堂崎字杉元75</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-flex uk-flex-left uk-flex-top uk-flex-column uk-flex-row@m uk-flex-gap">
+                                <p class="uk-margin-remove uk-width-1-3 uk-text-bolder">空路でのアクセス</p>
+                                <p class="uk-margin-remove uk-width-expand">最寄り空港は青森空港です。空港から鶴田町までは車で約1時間の距離にあります。</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-flex uk-flex-left uk-flex-middle uk-flex-column uk-flex-row@m uk-flex-gap">
+                                <p class="uk-margin-remove uk-width-1-3 uk-text-bolder">鉄道でのアクセス</p>
+                                <p class="uk-margin-remove uk-width-expand">JR五能線「陸奥鶴田駅」から約4.6km、車で約7分</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-flex uk-flex-left uk-flex-top uk-flex-column uk-flex-row@m uk-flex-gap">
+                                <p class="uk-margin-remove uk-width-1-3 uk-text-bolder">自動車でのアクセス</p>
+                                <ul class="uk-margin-remove uk-width-expand uk-padding-remove">
+                                    <li>鶴田町役場から車で約10分</li>
+                                    <li>五所川原市中心部から車で約20分</li>
+                                    <li>青森市中心部から車で約1時間</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class="uk-cover-container">

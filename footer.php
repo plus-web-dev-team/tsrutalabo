@@ -4,7 +4,7 @@
             <div class="uk-width-expand uk-flex uk-flex-top">
                 <img src="<?php echo esc_url(get_template_directory_uri() . '/images/cta_image01.png'); ?>" alt="" class="uk-width-1-2 uk-width-large@m">
             </div>
-            <div class="uk-width-1-2@m">
+            <div class="uk-width-1-1@m uk-width-1-2@l">
                 <h2 class="uk-heading uk-text-center uk-text-uppercase uk-text-bolder">
                     <span>
                         <div class="uk-navbar-subtitle">- contact -</div>
