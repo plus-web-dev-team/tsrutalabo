@@ -15,6 +15,7 @@ function add_js()
 {
     wp_enqueue_script('uikit', get_template_directory_uri() . '/js/uikit.min.js', array('jquery'), false, true);
     wp_enqueue_script('uikit-icons', get_template_directory_uri() . '/js/uikit-icons.min.js', array('jquery'), false, true);
+    wp_enqueue_script('main', get_template_directory_uri() . '/js/main.js', array('jquery'), false, true);
 }
 add_action('wp_enqueue_scripts', 'add_js');
 

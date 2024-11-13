@@ -123,6 +123,7 @@
             </div>
         </div>
     </div>
+    <a href="#top" id="back-to-top" uk-totop uk-scroll></a>
 </section>
 
 <?php wp_footer(); ?>

@@ -8,6 +8,7 @@
 </head>
 
 <body>
+    <div id="top"></div>
     <header>
         <div uk-sticky="start: 200; animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent" class="uk-header">
             <nav class="uk-navbar-container">
