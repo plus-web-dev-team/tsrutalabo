@@ -123,3 +123,7 @@ div.wpcf7 .wpcf7-spinner {
   opacity: 1;
   z-index: 2;
 }
+
+.uk-slider-items .highlight-center {
+  border: 4px solid #ff5733; /* お好みの色と太さに変更 */
+}

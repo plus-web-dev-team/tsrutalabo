@@ -3927,14 +3927,14 @@ ul.uk-nav-sub {
 }
 .uk-slidenav {
   padding: 5px 10px;
-  color: rgba(102, 102, 102, 0.5);
+  color: #0D4B08;
   transition: color 0.1s ease-in-out;
 }
 .uk-slidenav:hover {
-  color: rgba(102, 102, 102, 0.9);
+  color: #407b3e;
 }
 .uk-slidenav:active {
-  color: rgba(102, 102, 102, 0.5);
+  color: #407b3e;
 }
 .uk-slidenav-large {
   padding: 10px 10px;
