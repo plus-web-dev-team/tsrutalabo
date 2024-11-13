@@ -1717,20 +1717,17 @@ select.uk-form-width-xsmall {
     .uk-card-secondary
   ):hover {
   background-color: #fff;
-  box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
 }
 .uk-card-default {
   --uk-inverse: dark;
   background-color: #fff;
   color: #0d4b08;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 }
 .uk-card-default .uk-card-title {
   color: #0d4b08;
 }
 .uk-card-default.uk-card-hover:hover {
   background-color: #fff;
-  box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
 }
 .uk-card-default .uk-card-header {
   border-bottom: 1px solid #e5e5e5;
