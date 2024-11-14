@@ -81,9 +81,7 @@
                 <div>
                     <a class="uk-logo uk-width-expand uk-margin-bottom" href="<?php echo home_url("/"); ?>" aria-label="Back to Home"><img src="<?php echo get_template_directory_uri(); ?>/images/logo_w.svg" alt="TSURUTA LABOロゴ"></a>
                     <div class="uk-margin-bottom uk-text-center">
-                        <a href="#" uk-icon="icon: twitter"></a>
-                        <a href="#" uk-icon="icon: facebook"></a>
-                        <a href="#" uk-icon="icon: instagram"></a>
+                        <a href="https://www.instagram.com/mottainai.research" uk-icon="icon: instagram" target="_blank" rel="noopener noreferrer"></a>
                     </div>
                     <div class="uk-text-center">
                         営業時間09:00〜18:00
