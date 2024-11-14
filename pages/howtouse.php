@@ -64,7 +64,7 @@ get_header();
                     <div class="uk-width-expand">
                         <h3 class="uk-text-bold uk-text-center uk-text-left@s">会員登録</h3>
                         <p>施設のご利用には会員登録が必要です。以下のリンク（Googleフォーム）から会員登録申請をお願いします。</p>
-                        <a class="uk-button uk-button-default uk-border-rounded uk-margin-small-right uk-margin-small-left" href="https://forms.gle/VDL9HTEoMzEAG34T9" targer="_blank" rel="noopener noreferrer">会員登録申請専用フォーム</a>
+                        <a class="uk-button uk-button-default uk-border-rounded uk-margin-small-right uk-margin-small-left" href="https://forms.gle/VDL9HTEoMzEAG34T9" target="_blank" rel="noopener noreferrer">会員登録申請専用フォーム</a>
                     </div>
                     <div class="uk-width-auto">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/page_howtouse_header_image03.svg" alt="お問い合わせ・見学予約のイメージ">
