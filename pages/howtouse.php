@@ -21,9 +21,20 @@ get_header();
         <div class="uk-container">
             <h2 class="uk-heading uk-text-center uk-text-uppercase uk-text-bolder uk-position-relative">
                 <span>
-                    <div class="uk-navbar-subtitle">- how to use -</div>施設の利用方法
+                    <div class="uk-navbar-subtitle">- how to use -</div>施設の利用方法（貸オフィス以外）
                 </span>
             </h2>
+            <div class="uk-margin-auto uk-width-fit uk-margin-large-bottom">
+                <div class="uk-width-3-4@m uk-margin-auto">
+                    <p>「TSURUTA LABOでは、皆様に安心して施設をご利用いただけるよう、会員登録をしていただいた上でのご利用をお願いしております。」</p>
+                    <ul class="uk-list">
+                        <li>※ＷＥＢでの空き状況確認・予約は現在準備中です。</li>
+                        <li>※利用料金のお支払い方法は現金のみとなります。オンライン決済は現在準備中です。</li>
+                        <li>※貸オフィスのご利用については、お問い合わせフォームよりご相談ください。</li>
+                    </ul>
+                </div>
+            </div>
+
             <div>
                 <div class="uk-background-default uk-padding uk-flex uk-flex-column uk-flex-row@s uk-flex-middle uk-flex-between uk-flex-gap">
                     <div class="uk-width-expand">
