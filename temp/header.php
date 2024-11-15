@@ -25,6 +25,15 @@
                                 <li><a href="<?php echo home_url("contact"); ?>">お問い合わせ</a></li>
                             </ul>
                         </div>
+                        <!-- ↓公開時使用 -->
+                        <!-- <div class="uk-navbar-right">
+                            <a class="uk-navbar-toggle" href="#offcanvas-nav" uk-toggle>
+                                <span uk-navbar-toggle-icon></span>
+                            </a>
+                        </div> -->
+                        <!-- ↑公開時使用 -->
+
+                        <!-- ↓公開時削除 -->
                         <div class="uk-navbar-right">
                             <div class="uk-navbar-item uk-visible@m">
                                 <div class="uk-text-center">
@@ -38,20 +47,26 @@
                                 <span uk-navbar-toggle-icon></span>
                             </a>
                         </div>
+                        <!-- ↑公開時削除 -->
+
                     </div>
                 </div>
             </nav>
         </div>
+
+        <!-- ↓公開時削除 -->
         <div id="modal-full" class="uk-modal-full uk-modal" uk-modal>
             <div class="uk-modal-dialog uk-flex uk-flex-center uk-flex-middle" uk-height-viewport>
                 <button class="uk-modal-close-full" type="button" uk-close></button>
-
+                <!-- モーダル検索フォーム -->
                 <form class="uk-search uk-search-large" action="<?php echo home_url('/'); ?>" method="get">
                     <input class="uk-search-input uk-text-center" type="search" name="s" placeholder="Search" aria-label="Search" autofocus>
                     <button type="submit" uk-search-icon></button>
                 </form>
             </div>
         </div>
+        <!-- ↑公開時削除 -->
+
         <div id="offcanvas-nav" uk-offcanvas="mode: slide; overlay: true">
             <div class="uk-offcanvas-bar">
                 <ul class="uk-nav uk-nav-default uk-margin-bottom uk-hidden@m">
