@@ -23,5 +23,10 @@ get_header();
         <a href="<?php echo home_url(); ?>" class="uk-button uk-button-default uk-button-large uk-margin-top">ホームに戻る</a>
     </div>
 </div>
-
+<?php
+include get_template_directory() . '/components/cta.php';
+?>
+<?php
+include get_template_directory() . '/components/banner.php';
+?>
 <?php get_footer(); ?>

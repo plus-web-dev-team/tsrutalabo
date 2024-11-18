@@ -90,6 +90,11 @@
             </div>
         </div>
     </section>
-
+    <?php
+    include get_template_directory() . '/components/cta.php';
+    ?>
+    <?php
+    include get_template_directory() . '/components/banner.php';
+    ?>
 </main>
 <?php get_footer(); ?>

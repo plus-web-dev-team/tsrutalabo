@@ -18,4 +18,10 @@
         </section>
     </main>
 <?php endwhile; ?>
+<?php
+include get_template_directory() . '/components/cta.php';
+?>
+<?php
+include get_template_directory() . '/components/banner.php';
+?>
 <?php get_footer(); ?>

@@ -10,6 +10,12 @@
             <a href="<?php echo home_url(); ?>" class="uk-button uk-button-default uk-button-large">ホームに戻る</a>
         </div>
     </section>
+    <?php
+    include get_template_directory() . '/components/cta.php';
+    ?>
+    <?php
+    include get_template_directory() . '/components/banner.php';
+    ?>
 </main>
 
 <?php get_footer(); ?>
