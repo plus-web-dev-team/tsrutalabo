@@ -86,3 +86,16 @@ function google_recaptcha_v3()
     }
 }
 add_action('wp_enqueue_scripts', 'google_recaptcha_v3', 99);
+
+
+/* =============================================
+ 固定ページ wpautop無効化
+============================================= */
+function disable_wpautop_for_pages($content)
+{
+    if (is_page()) {
+        remove_filter('the_content', 'wpautop');
+    }
+    return $content;
+}
+add_filter('the_content', 'disable_wpautop_for_pages', 0);

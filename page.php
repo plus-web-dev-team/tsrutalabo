@@ -11,11 +11,9 @@
                 ?>
             </div>
         </section>
-        <section class="uk-section">
-            <div class="uk-container">
-                <?php the_content(); ?>
-            </div>
-        </section>
+
+        <?php the_content(); ?>
+
     </main>
 <?php endwhile; ?>
 <?php
