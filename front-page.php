@@ -2,7 +2,7 @@
 <main>
     <section class="uk-section" id="hero">
         <div class="uk-container uk-container-large">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/hero_image.svg" alt="" class="uk-width-expand">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/hero_image.svg" alt="TSURUTA LABOメイン画像" class="uk-width-expand">
         </div>
     </section>
 
@@ -117,7 +117,7 @@
                 <p>施設の利用方法や料金等はこちらから！利用予約や事前見学も承ります。</p>
             </div>
             <div class="uk-align-center uk-text-center">
-                <a href="<?php echo home_url("howtouse"); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/howtouse_button.svg" alt="" class="uk-width-auto"></a>
+                <a href="<?php echo home_url("howtouse"); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/howtouse_button.svg" alt="施設のご利用方法ページへ" class="uk-width-auto"></a>
             </div>
         </div>
     </section>

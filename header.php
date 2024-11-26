@@ -4,6 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- OGP meta tags -->
+    <meta property="og:title" content="TSURUTA LABO - 鶴田町地域活性化支援センター" />
+    <meta property="og:description" content="青森県鶴田町にある地域活性化支援センター。旧水元中央小学校をリノベーションし、貸オフィス、コワーキングスペース、イベントスペース、シェアショップを展開。地域の活性化と持続的発展を支援します。" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://tsurutalabo.com/" />
+    <meta property="og:image" content="https://tsurutalabo.com/wp-content/uploads/2024/11/ogpimage.jpg" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="og:site_name" content="TSURUTA LABO" />
+
+    <!-- Twitter Card meta tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="TSURUTA LABO - 鶴田町地域活性化支援センター" />
+    <meta name="twitter:description" content="青森県鶴田町にある地域活性化支援センター。旧水元中央小学校をリノベーションし、貸オフィス、コワーキングスペース、イベントスペース、シェアショップを展開。地域の活性化と持続的発展を支援します。" />
+    <meta name="twitter:image" content="https://tsurutalabo.com/wp-content/uploads/2024/11/ogpimage.jpg" />
     <?php wp_head(); ?>
 </head>
 
@@ -15,7 +29,7 @@
                 <div class="uk-container uk-container-large">
                     <div uk-navbar>
                         <div class="uk-navbar-left">
-                            <a class="uk-logo uk-width-expand" href="<?php echo home_url("/"); ?>" aria-label="Back to Home"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.svg" alt="TSURUTA LABOロゴ" class="uk-width-expand"></a>
+                            <a class="uk-logo uk-width-expand" href="<?php echo home_url("/"); ?>" aria-label="Back to Home"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.svg" alt="トップページに戻る" class="uk-width-expand"></a>
                             <ul class="uk-navbar-nav uk-visible@m">
                                 <li><a href="<?php echo home_url("about"); ?>">事業紹介</a></li>
                                 <li><a href="<?php echo home_url("facility"); ?>">施設概要</a></li>
@@ -64,7 +78,7 @@
                     <li><a class="uk-text-white" href="<?php echo home_url("contact"); ?>">お問い合わせ</a></li>
                 </ul>
                 <div>
-                    <a class="uk-logo uk-width-expand uk-margin-bottom" href="<?php echo home_url("/"); ?>" aria-label="Back to Home"><img src="<?php echo get_template_directory_uri(); ?>/images/logo_w.svg" alt="TSURUTA LABOロゴ"></a>
+                    <a class="uk-logo uk-width-expand uk-margin-bottom" href="<?php echo home_url("/"); ?>" aria-label="Back to Home"><img src="<?php echo get_template_directory_uri(); ?>/images/logo_w.svg" alt="トップページに戻る"></a>
                     <div class="uk-margin-bottom uk-text-center">
                         <a href="https://www.instagram.com/mottainai.research" uk-icon="icon: instagram" target="_blank" rel="noopener noreferrer"></a>
                     </div>
