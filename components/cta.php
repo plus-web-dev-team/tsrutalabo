@@ -18,7 +18,7 @@
                 </div>
                 <div class="uk-grid uk-grid-medium uk-child-width-1-1 uk-child-width-1-2@s" uk-grid>
                     <div class="uk-text-center uk-text-right@s">
-                        <a href="<?php echo esc_url(home_url("contact")); ?>" class="uk-button uk-button-primary uk-button-large uk-border-rounded uk-text-bold">専用フォームからのお問い合わせ</a>
+                        <a href="<?php echo esc_url(home_url("contact")); ?>" class="uk-button uk-button-primary uk-button-large uk-border-rounded uk-text-bold">お問い合わせはこちらから</a>
                     </div>
                     <div class="uk-text-center uk-text-left@s">
                         <a href="https://docs.google.com/forms/d/e/1FAIpQLSe6BxN7Usqa7DSIlAc47rDMPvo0gDYznkPNnvy7_wtV9DKdDw/viewform" class="uk-button uk-button-primary uk-button-large uk-border-rounded uk-text-bold" rel="noopener noreferrer">会員登録はこちらから</a>

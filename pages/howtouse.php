@@ -308,7 +308,7 @@ get_header();
                         <div class="uk-text-center">
                             <h3 class="uk-card-title">貸オフィス</h3>
                             <p class="uk-margin-remove">月額利用</p>
-                            <p><span class="uk-heading-large uk-text-primary uk-margin-remove">40,000</span>円</p>
+                            <p><span class="uk-heading-medium uk-text-primary uk-margin-remove">40,000</span>円</p>
                             <ul class="uk-list">
                                 <li>空調設備管理費<span class="uk-heading-small uk-text-primary uk-margin-left">3,000</span>円/月</li>
                                 <li>共通管理費<span class="uk-heading-small uk-text-primary uk-margin-left">3,000</span>円/月</li>

@@ -3927,7 +3927,7 @@ ul.uk-nav-sub {
 }
 .uk-slidenav {
   padding: 5px 10px;
-  color: #0D4B08;
+  color: #0d4b08;
   transition: color 0.1s ease-in-out;
 }
 .uk-slidenav:hover {
@@ -6720,11 +6720,11 @@ iframe[uk-cover] {
     display: none !important;
   }
 }
-@media (min-width: 960px) {
+/* @media (min-width: 960px) {
   .uk-hidden\@m {
     display: none !important;
   }
-}
+} */
 @media (min-width: 1200px) {
   .uk-hidden\@l {
     display: none !important;

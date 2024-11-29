@@ -135,3 +135,15 @@ div.wpcf7 .wpcf7-spinner {
   display: none;
   z-index: 1000;
 }
+
+@media (max-width: 1389px) {
+  .uk-visibles\@m {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1390px) {
+  .uk-hidden\@m {
+    display: none !important;
+  }
+}

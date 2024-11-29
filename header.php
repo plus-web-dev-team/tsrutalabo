@@ -36,11 +36,11 @@
                                 <li><a href="<?php echo home_url("residence"); ?>">利用者紹介</a></li>
                                 <li><a href="<?php echo home_url("howtouse"); ?>">ご利用方法</a></li>
                                 <li><a href="<?php echo home_url("news"); ?>">お知らせ</a></li>
-                                <li><a href="<?php echo home_url("contact"); ?>">お問い合わせ</a></li>
+                                <li class="uk-margin-right"><a href="<?php echo home_url("contact"); ?>">お問い合わせ</a></li>
                             </ul>
                         </div>
                         <div class="uk-navbar-right">
-                            <div class="uk-navbar-item uk-visible@m">
+                            <div class="uk-navbar-item uk-visibles@m">
                                 <div class="uk-text-center">
                                     営業時間09:00〜18:00
                                     <div class="uk-navbar-subtitle uk-text-large">0173-26-5888</div>
