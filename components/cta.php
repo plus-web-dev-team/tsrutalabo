@@ -8,7 +8,7 @@
                 <h2 class="uk-heading uk-text-center uk-text-uppercase uk-text-bolder">
                     <span>
                         <div class="uk-navbar-subtitle">- contact -</div>
-                        お問い合わせ・ご予約はこちら！
+                        お問い合わせはこちら！
                     </span>
                 </h2>
                 <div class="uk-align-center uk-text-center uk-text-large">
@@ -21,7 +21,7 @@
                         <a href="<?php echo esc_url(home_url("contact")); ?>" class="uk-button uk-button-primary uk-button-large uk-border-rounded uk-text-bold">専用フォームからのお問い合わせ</a>
                     </div>
                     <div class="uk-text-center uk-text-left@s">
-                        <a href="<?php echo esc_url(home_url("reservation")); ?>" class="uk-button uk-button-primary uk-button-large uk-border-rounded uk-text-bold">WEB予約はこちらから</a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSe6BxN7Usqa7DSIlAc47rDMPvo0gDYznkPNnvy7_wtV9DKdDw/viewform" class="uk-button uk-button-primary uk-button-large uk-border-rounded uk-text-bold" rel="noopener noreferrer">会員登録はこちらから</a>
                     </div>
                 </div>
             </div>

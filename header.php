@@ -45,7 +45,7 @@
                                     営業時間09:00〜18:00
                                     <div class="uk-navbar-subtitle uk-text-large">0173-26-5888</div>
                                 </div>
-                                <a class="uk-button uk-button-default uk-border-rounded uk-margin-small-right uk-margin-small-left" href="<?php echo home_url("reservation"); ?>">WEB予約はこちらから</a>
+                                <a class="uk-button uk-button-default uk-border-rounded uk-margin-small-right uk-margin-small-left" href="https://docs.google.com/forms/d/e/1FAIpQLSe6BxN7Usqa7DSIlAc47rDMPvo0gDYznkPNnvy7_wtV9DKdDw/viewform" rel="noopener noreferrer">会員登録はこちらから</a>
                                 <a class="uk-navbar-toggle" href="#modal-full" uk-search-icon uk-toggle></a>
                             </div>
                             <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-nav" uk-toggle>
@@ -86,7 +86,7 @@
                         営業時間09:00〜18:00
                         <p class="uk-navbar-subtitle uk-text-large">0173-26-5888</p>
                     </div>
-                    <a class="uk-width-expand uk-button uk-button-primary uk-border-rounded uk-margin-bottom" href="<?php echo home_url("reservation"); ?>">WEB予約はこちらから</a>
+                    <a class="uk-width-expand uk-button uk-button-primary uk-border-rounded uk-margin-bottom" href="https://docs.google.com/forms/d/e/1FAIpQLSe6BxN7Usqa7DSIlAc47rDMPvo0gDYznkPNnvy7_wtV9DKdDw/viewform" rel="noopener noreferrer">会員登録はこちらから</a>
                     <div>
                         <form role="search" method="get" class="uk-search uk-search-default" action="<?php echo home_url('/'); ?>">
                             <input type="search" class="uk-search-input uk-input" placeholder="検索..." value="<?php echo get_search_query(); ?>" name="s" title="Search" />
