@@ -1,0 +1,6 @@
+# デフォルトの無視対象ファイル
+/shelf/
+/.idea/workspace.xml
+# エディターベースの HTTP クライアントリクエスト
+/httpRequests/
+/.idea
