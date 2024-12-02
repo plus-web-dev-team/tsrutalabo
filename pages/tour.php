@@ -15,7 +15,14 @@ get_header();
             </h2>
             <div class="uk-margin-auto uk-width-fit uk-margin-large-bottom">
                 <div class="uk-width-3-4@m uk-margin-auto">
-                    <p>企業・団体所属の方は、企業・団体の名称やご住所、お電話番号もご入力ください。</p>
+                    <ul class="uk-list">
+                        <li>〇実施日程：2025年2月8日（土）・2月9日（日）</li>
+                        <li>〇申込期限：2025年1月8日（水）</li>
+                        <li>※チラシ・ポスターには「定員に達し次第締め切り」とありますが、申込期限まで申込を受付いたします。</li>
+                        <li class="uk-margin-remove">※申込者多数の場合、抽選となります。</li>
+                        <li class="uk-margin-remove">※2025年1月10日（金）を目途に、メールにて参加決定/不決定のお知らせをいたします。</li>
+                        <li class="uk-margin-remove">※企業・団体所属の方は、企業・団体の名称やご住所、電話番号もご入力ください。</li>
+                    </ul>
                 </div>
             </div>
             <?php the_content(); ?>
