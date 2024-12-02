@@ -36,7 +36,7 @@ Template Name: サテライトオフィスモニターツアーLP
             </div>
             <div class="uk-margin-auto uk-width-fit uk-margin-large-bottom">
                 <div class="uk-width-3-4@m uk-margin-auto">
-                    <p class="uk-text-large">2024年11月、<span style="color:#E95513;" class="uk-text-bold">廃校になった小学校を活用</span>した複合施設「<span style="color:#E95513;" class="uk-text-bold">TSURUTA LABO</span>」がオープン！
+                    <p class="uk-text-large">2024年11月、青森県鶴田町の<span style="color:#E95513;" class="uk-text-bold">廃校になった小学校を活用</span>した複合施設「<span style="color:#E95513;" class="uk-text-bold">TSURUTA LABO</span>」がオープン！
                         コワーキングスペースや貸オフィス等を兼ね備えたTSURUTA LABOに、<span style="color:#E95513;" class="uk-text-bold">サテライトオフィス開設等の関心がある企業・個人の方を対象</span>とした見学・体験ツアーを実施します。
                         自然豊かで四季のうつろいを感じられる青森県鶴田町をぜひご体感ください。</p>
                 </div>
@@ -82,7 +82,9 @@ Template Name: サテライトオフィスモニターツアーLP
                         <div style="background-color:#BAE0CF;" class="uk-padding-small uk-margin-remove uk-text-large uk-text-bold uk-inline uk-width-1-1">
                             <p>2025年1月8日［水］</p>
                             <ul class="uk-list uk-text-default">
-                                <li>※定員に達し次第締め切り</li>
+                                <li>※チラシ・ポスターには「定員に達し次第締め切り」とありますが、申込期限まで申込を受付いたします。</li>
+                                <li>※申込者多数の場合、抽選となります。</li>
+                                <li>※2025年1月10日（金）を目途に、メールにて参加決定/不決定のお知らせをいたします。</li>
                             </ul>
                         </div>
                     </div>
