@@ -20,7 +20,7 @@ get_header();
         <h1 class="uk-heading-line uk-text-bolder"><span>送信が完了しました</span></h1>
         <p class="uk-text-lead uk-margin-large-top">お問い合わせいただき、誠にありがとうございます。</p>
         <p>担当者が確認次第、追ってご連絡いたします。</p>
-        <a href="<?php echo home_url(); ?>" class="uk-button uk-button-default uk-button-large uk-margin-top">ホームに戻る</a>
+        <a href="<?php echo home_url("/"); ?>" class="uk-button uk-button-default uk-button-large uk-margin-top">ホームに戻る</a>
     </div>
 </div>
 <?php
