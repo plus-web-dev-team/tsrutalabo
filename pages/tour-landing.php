@@ -35,6 +35,7 @@ Template Name: サテライトオフィスモニターツアーLP
 
         gtag('config', 'G-N262MB1ZH9');
     </script>
+    <title>サテライトオフィスモニターツアー | TSURUTA LABO</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- OGP meta tags -->
@@ -69,7 +70,7 @@ Template Name: サテライトオフィスモニターツアーLP
             height="0" width="0" style="display:none;visibility:hidden"></iframe>
 </noscript>
 <!-- End Google Tag Manager (noscript) -->
-<main>
+<main class="uk-position-relative" style="margin-bottom:clamp(7.5rem, 5.833rem + 8.33vw, 12.5rem);">
     <section class="uk-section" id="residence_header">
         <div class="uk-container">
             <div class="uk-margin-large-bottom">
@@ -265,4 +266,7 @@ Template Name: サテライトオフィスモニターツアーLP
         </div>
     </section>
 </main>
+<a class="uk-margin-remove uk-background-primary uk-padding uk-text-white uk-heading-small uk-text-center uk-display-block uk-width-1-1 uk-position-absolute uk-position-fixed uk-position-bottom button_click"
+   href="<?php echo home_url('/satellite-office'); ?>">お申し込みはこちらから</a>
 </body>
+</html>

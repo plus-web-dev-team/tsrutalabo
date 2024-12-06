@@ -88,6 +88,7 @@
                             </div>
                             <a class="uk-button uk-button-default uk-border-rounded uk-margin-small-right uk-margin-small-left"
                                href="https://docs.google.com/forms/d/e/1FAIpQLSe6BxN7Usqa7DSIlAc47rDMPvo0gDYznkPNnvy7_wtV9DKdDw/viewform"
+                               target="_blank"
                                rel="noopener noreferrer">会員登録はこちらから</a>
                             <a class="uk-navbar-toggle" href="#modal-full" uk-search-icon uk-toggle></a>
                         </div>
@@ -135,6 +136,7 @@
                 </div>
                 <a class="uk-width-expand uk-button uk-button-primary uk-border-rounded uk-margin-bottom"
                    href="https://docs.google.com/forms/d/e/1FAIpQLSe6BxN7Usqa7DSIlAc47rDMPvo0gDYznkPNnvy7_wtV9DKdDw/viewform"
+                   target="_blank"
                    rel="noopener noreferrer">会員登録はこちらから</a>
                 <div>
                     <form role="search" method="get" class="uk-search uk-search-default"

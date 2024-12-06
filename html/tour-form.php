@@ -161,7 +161,7 @@
             </div>
         </div>
         <div class="uk-width-3-4@m uk-margin-auto uk-text-center">
-            [submit class:uk-button class:uk-button-default "申し込み"]
+            [submit class:uk-button class:uk-button-default class:btn_confirm "申し込み"]
         </div>
     </div>
 </div>
