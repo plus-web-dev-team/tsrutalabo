@@ -1,4 +1,4 @@
-<div class="uk-flex uk-flex-between uk-flex-middle@m uk-flex-column uk-flex-row@m">
+<div class="uk-flex-between uk-flex-middle@m uk-flex-column uk-flex-row@m">
     <ul class="uk-breadcrumb">
         <li><a href="<?php echo home_url(); ?>">ホーム</a></li>
 
@@ -66,7 +66,15 @@
             $sub_title = get_post_meta($page_id, 'subtitle', true);
             ?>
 
-            <p class="uk-heading-medium uk-text-bolder uk-margin-remove uk-text-uppercase">
+            <p class="uk-text-bolder uk-margin-remove uk-text-uppercase <?php
+                                                                        if (is_page()) {
+                                                                            echo 'uk-heading-medium'; // 固定ページ用のクラス
+                                                                        } elseif (is_single()) {
+                                                                            echo 'uk-heading'; // 投稿ページ用のクラス
+                                                                        } else {
+                                                                            echo 'uk-heading-medium'; // デフォルトクラス
+                                                                        }
+                                                                        ?>">
                 <?php echo esc_html($page_title); ?>
             </p>
 

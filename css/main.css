@@ -147,3 +147,7 @@ div.wpcf7 .wpcf7-spinner {
     display: none !important;
   }
 }
+
+.uk-heading {
+  font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
+}
