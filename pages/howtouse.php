@@ -131,9 +131,9 @@ get_header();
             </h2>
             <div class="uk-margin-auto uk-width-fit uk-margin-large-bottom">
                 <div class="uk-width-3-4@m uk-margin-auto">
-                    <p>TSURUTA LABOでは、施設内の様々なスペースやサービスを、利用者のニーズに応じて柔軟にご利用いただける料金体系を設けています。</p>
+                    <p>TSURUTA LABOでは、施設内の様々なスペースやサービスを、利用者のニーズに応じて柔軟にご利用いただける料金体系を設けています。<a href="https://drive.google.com/file/d/1C4I070wyL2rp6HORV2WvxM9jAO-une3l/view?usp=sharing" class="uk-text-decoration-none uk-border-solid" target="_blank" rel="noopener noreferrer">予約可能な有料施設利用にあたっての注意事項はこちら。</a></p>
                     <p class="uk-margin-remove">※すべて税込表示です。</p>
-                    <p class="uk-margin-remove">※大型ディスプレイ、レジ設備等、備品の貸し出しも行っております。<a href="" class="uk-text-decoration-none uk-border-solid">詳しくはこちら</a></p>
+                    <p class="uk-margin-remove">※大型ディスプレイ、レジ設備等、備品の貸し出しも行っております。<a href="https://drive.google.com/file/d/18oMXMLRn-EQyf_VFfXmjCaO9JMzgY-dr/view?usp=sharing" class="uk-text-decoration-none uk-border-solid" target="_blank" rel="noopener noreferrer">詳しくはこちら</a></p>
                 </div>
             </div>
 
@@ -161,8 +161,9 @@ get_header();
                                 <span uk-icon="icon: check"></span>WEB会議用ブース利用可（時間予約制）
                             </li>
                         </ul>
-                        <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-gap">
+                        <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-gap uk-flex-wrap">
                             <p class="uk-margin-remove"><a href="<?php echo home_url("/contact"); ?>" class="uk-button uk-button-default uk-border-rounded">お問い合わせ</a></p>
+                            <p class="uk-margin-remove"><a href="https://drive.google.com/file/d/1C4I070wyL2rp6HORV2WvxM9jAO-une3l/view?usp=sharing" class="uk-button uk-button-default uk-border-rounded" target="_blank" rel="noopener noreferrer">注意事項</a></p>
                         </div>
                     </div>
                 </div>
@@ -189,8 +190,9 @@ get_header();
                                 <span uk-icon="icon: check"></span>レイアウトのカスタマイズ可（机、椅子の配置等）
                             </li>
                         </ul>
-                        <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-gap">
+                        <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-gap uk-flex-wrap">
                             <p class="uk-margin-remove"><a href="<?php echo home_url("/contact"); ?>" class="uk-button uk-button-default uk-border-rounded">お問い合わせ</a></p>
+                            <p class="uk-margin-remove"><a href="https://drive.google.com/file/d/1C4I070wyL2rp6HORV2WvxM9jAO-une3l/view?usp=sharing" class="uk-button uk-button-default uk-border-rounded" target="_blank" rel="noopener noreferrer">注意事項</a></p>
                         </div>
                     </div>
                 </div>
@@ -219,8 +221,9 @@ get_header();
                                 <span uk-icon="icon: check"></span>レイアウトのカスタマイズ可（レジカウンターの配置等）
                             </li>
                         </ul>
-                        <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-gap">
+                        <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-gap uk-flex-wrap">
                             <p class="uk-margin-remove"><a href="<?php echo home_url("/contact"); ?>" class="uk-button uk-button-default uk-border-rounded">お問い合わせ</a></p>
+                            <p class="uk-margin-remove"><a href="https://drive.google.com/file/d/1C4I070wyL2rp6HORV2WvxM9jAO-une3l/view?usp=sharing" class="uk-button uk-button-default uk-border-rounded" target="_blank" rel="noopener noreferrer">注意事項</a></p>
                         </div>
                     </div>
                 </div>
@@ -246,8 +249,9 @@ get_header();
                                 <span uk-icon="icon: check"></span>レイアウトのカスタマイズ可（机、椅子の配置等）
                             </li>
                         </ul>
-                        <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-gap">
+                        <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-gap uk-flex-wrap">
                             <p class="uk-margin-remove"><a href="<?php echo home_url("/contact"); ?>" class="uk-button uk-button-default uk-border-rounded">お問い合わせ</a></p>
+                            <p class="uk-margin-remove"><a href="https://drive.google.com/file/d/1C4I070wyL2rp6HORV2WvxM9jAO-une3l/view?usp=sharing" class="uk-button uk-button-default uk-border-rounded" target="_blank" rel="noopener noreferrer">注意事項</a></p>
                         </div>
                     </div>
                 </div>
@@ -274,8 +278,9 @@ get_header();
                             </li>
                         </ul>
                         <p class="uk-margin-bottom">※備品の貸し出しは現在調整中です</p>
-                        <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-gap">
+                        <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-gap uk-flex-wrap">
                             <p class="uk-margin-remove"><a href="<?php echo home_url("/contact"); ?>" class="uk-button uk-button-default uk-border-rounded">お問い合わせ</a></p>
+                            <p class="uk-margin-remove"><a href="https://drive.google.com/file/d/1C4I070wyL2rp6HORV2WvxM9jAO-une3l/view?usp=sharing" class="uk-button uk-button-default uk-border-rounded" target="_blank" rel="noopener noreferrer">注意事項</a></p>
                         </div>
                     </div>
                 </div>
@@ -298,8 +303,9 @@ get_header();
                                 <span uk-icon="icon: check"></span>スポーツ・大規模イベント等にも
                             </li>
                         </ul>
-                        <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-gap">
+                        <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-gap uk-flex-wrap">
                             <p class="uk-margin-remove"><a href="<?php echo home_url("/contact"); ?>" class="uk-button uk-button-default uk-border-rounded">お問い合わせ</a></p>
+                            <p class="uk-margin-remove"><a href="https://drive.google.com/file/d/1C4I070wyL2rp6HORV2WvxM9jAO-une3l/view?usp=sharing" class="uk-button uk-button-default uk-border-rounded" target="_blank" rel="noopener noreferrer">注意事項</a></p>
                         </div>
                     </div>
                 </div>
@@ -328,8 +334,9 @@ get_header();
                                 <span uk-icon="icon: check"></span>施設への協力による利用料減免制度あり（詳しくはお尋ねください）
                             </li>
                         </ul>
-                        <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-gap">
+                        <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-gap uk-flex-wrap">
                             <p class="uk-margin-remove"><a href="<?php echo home_url("/contact"); ?>" class="uk-button uk-button-default uk-border-rounded">お問い合わせ</a></p>
+                            <p class="uk-margin-remove"><a href="https://drive.google.com/file/d/1C4I070wyL2rp6HORV2WvxM9jAO-une3l/view?usp=sharing" class="uk-button uk-button-default uk-border-rounded" target="_blank" rel="noopener noreferrer">注意事項</a></p>
                         </div>
                     </div>
                 </div>
