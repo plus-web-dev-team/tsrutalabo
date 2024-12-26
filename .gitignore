@@ -4,3 +4,4 @@
 # エディターベースの HTTP クライアントリクエスト
 /httpRequests/
 /.idea
+node_modules/
