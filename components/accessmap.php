@@ -22,7 +22,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="uk-flex uk-flex-left uk-flex-middle uk-flex-column uk-flex-row@m uk-flex-gap">
+                            <div class="uk-flex uk-flex-left uk-flex-top uk-flex-column uk-flex-row@m uk-flex-gap">
                                 <p class="uk-margin-remove uk-width-1-1 uk-width-1-3@m uk-text-bolder">鉄道でのアクセス</p>
                                 <p class="uk-margin-remove uk-width-expand">JR五能線「陸奥鶴田駅」から約4.6km、車で約7分</p>
                             </div>
