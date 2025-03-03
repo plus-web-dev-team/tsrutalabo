@@ -19,11 +19,49 @@
                 'post_status'    => 'publish',
             );
             $query = new WP_Query($args);
+
+            // 投稿カウンタを初期化
+            $post_counter = 0;
+
             if ($query->have_posts()) :
-                while ($query->have_posts()) : $query->the_post(); ?>
+                while ($query->have_posts()) : $query->the_post();
+                    // 投稿カウンタをインクリメント
+                    $post_counter++;
+            ?>
                     <article id="post-<?php the_ID(); ?>" <?php post_class('uk-flex uk-flex-middle uk-margin-medium-bottom uk-border-dashed'); ?>>
-                        <div class="uk-width-auto uk-margin-medium-right">
-                            <p><?php echo get_the_date('Y.m.d'); ?></p>
+                        <div class="uk-width-auto uk-grid uk-grid-small uk-margin-bottom uk-margin-medium-right">
+                            <?php if ($post_counter <= 3) : ?>
+                                <!-- 最新の3件に "new" ラベルを表示 -->
+                                <p><span class="uk-label uk-label-default">new</span></p>
+                            <?php endif; ?>
+                            <p>
+                                <time datetime="<?php echo get_the_date('c'); ?>"><?php echo get_the_date('Y.m.d'); ?></time>
+                            </p>
+                            <?php
+                            // カテゴリーを表示
+                            $categories = get_the_category();
+                            if (!empty($categories)) {
+                                echo '<p class="uk-margin-remove-top">';
+                                foreach ($categories as $category) {
+                                    $category_slug = $category->slug;
+                                    $class = '';
+
+                                    if ($category_slug === 'topics') {
+                                        $class = 'uk-label uk-label-default';
+                                    } elseif ($category_slug === 'organized') {
+                                        $class = 'uk-label uk-label-organized';
+                                    } elseif ($category_slug === 'byo') {
+                                        $class = 'uk-label uk-label-byo';
+                                    } else {
+                                        // その他のカテゴリーはデフォルトのスタイルを適用
+                                        $class = 'uk-label uk-label-default';
+                                    }
+
+                                    echo '<span class="' . $class . ' uk-margin-small-right">' . esc_html($category->name) . '</span>';
+                                }
+                                echo '</p>';
+                            }
+                            ?>
                         </div>
                         <div class="uk-width-expand">
                             <p>
