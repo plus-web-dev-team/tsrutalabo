@@ -39,15 +39,17 @@
                     // 投稿カウンタをインクリメント
                     $post_counter++;
             ?>
-                    <article id="post-<?php the_ID(); ?>" <?php post_class('uk-flex uk-flex-middle uk-margin-medium-bottom uk-border-dashed'); ?>>
+                    <article
+                            id="post-<?php the_ID(); ?>" <?php post_class('uk-flex uk-flex-column uk-flex-start uk-margin-medium-bottom uk-border-dashed'); ?>>
                         <div class="uk-width-auto uk-grid uk-grid-small uk-margin-bottom uk-margin-medium-right">
+                            <p>
+                                <time datetime="<?php echo get_the_date('c'); ?>"><?php echo get_the_date('Y.m.d'); ?></time>
+                            </p>
                             <?php if ($post_counter <= 3) : ?>
                                 <!-- 最新の3件に "new" ラベルを表示 -->
                                 <p><span class="uk-label uk-label-default">new</span></p>
                             <?php endif; ?>
-                            <p>
-                                <time datetime="<?php echo get_the_date('c'); ?>"><?php echo get_the_date('Y.m.d'); ?></time>
-                            </p>
+
                             <?php
                             // カテゴリーを表示
                             $categories = get_the_category();
