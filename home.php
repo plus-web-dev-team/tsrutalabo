@@ -40,7 +40,7 @@
                     $post_counter++;
             ?>
                     <article
-                            id="post-<?php the_ID(); ?>" <?php post_class('uk-flex uk-flex-column uk-flex-start uk-margin-medium-bottom uk-border-dashed'); ?>>
+                        id="post-<?php the_ID(); ?>" <?php post_class('uk-flex uk-flex-column uk-flex-start uk-margin-medium-bottom uk-border-dashed'); ?>>
                         <div class="uk-width-auto uk-grid uk-grid-small uk-margin-bottom uk-margin-medium-right">
                             <p>
                                 <time datetime="<?php echo get_the_date('c'); ?>"><?php echo get_the_date('Y.m.d'); ?></time>
@@ -54,7 +54,7 @@
                             // カテゴリーを表示
                             $categories = get_the_category();
                             if (!empty($categories)) {
-                                echo '<p class="uk-margin-remove-top">';
+                                echo '<p class="uk-margin-remove-top uk-flex">';
                                 foreach ($categories as $category) {
                                     $category_slug = $category->slug;
                                     $class = '';
