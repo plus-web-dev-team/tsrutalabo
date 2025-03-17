@@ -44,43 +44,47 @@
                     $post_counter++;
             ?>
                     <article
-                        id="post-<?php the_ID(); ?>" <?php post_class('uk-flex uk-flex-column uk-flex-start uk-margin-medium-bottom uk-border-dashed'); ?>>
-                        <div class="uk-width-auto uk-grid uk-grid-small uk-margin-bottom uk-margin-medium-right">
-                            <p>
-                                <time datetime="<?php echo get_the_date('c'); ?>"><?php echo get_the_date('Y.m.d'); ?></time>
-                            </p>
+                        id="post-<?php the_ID(); ?>" <?php post_class('uk-flex uk-flex-column uk-flex-row@s uk-flex-start uk-margin-medium-bottom uk-border-dashed'); ?>>
+
+                        <div class="uk-grid uk-grid-small uk-margin-bottom uk-margin-right" style="width:65px;">
                             <?php if ($post_counter <= 3) : ?>
                                 <!-- 最新の3件に "new" ラベルを表示 -->
                                 <p><span class="uk-label uk-label-default">new</span></p>
                             <?php endif; ?>
 
-                            <?php
-                            // カテゴリーを表示
-                            $categories = get_the_category();
-                            if (!empty($categories)) {
-                                echo '<p class="uk-margin-remove-top uk-flex">';
-                                foreach ($categories as $category) {
-                                    $category_slug = $category->slug;
-                                    $class = '';
-
-                                    if ($category_slug === 'topics') {
-                                        $class = 'uk-label uk-label-default';
-                                    } elseif ($category_slug === 'organized') {
-                                        $class = 'uk-label uk-label-organized';
-                                    } elseif ($category_slug === 'byo') {
-                                        $class = 'uk-label uk-label-byo';
-                                    } else {
-                                        // その他のカテゴリーはデフォルトのスタイルを適用
-                                        $class = 'uk-label uk-label-default';
-                                    }
-
-                                    echo '<span class="' . $class . ' uk-margin-small-right">' . esc_html($category->name) . '</span>';
-                                }
-                                echo '</p>';
-                            }
-                            ?>
                         </div>
                         <div class="uk-width-expand">
+                            <div class="uk-width-auto uk-grid uk-grid-small uk-margin-bottom uk-margin-medium-right">
+                                <p>
+                                    <time datetime="<?php echo get_the_date('c'); ?>"><?php echo get_the_date('Y.m.d'); ?></time>
+                                </p>
+
+                                <?php
+                                // カテゴリーを表示
+                                $categories = get_the_category();
+                                if (!empty($categories)) {
+                                    echo '<p class="uk-margin-remove-top uk-flex">';
+                                    foreach ($categories as $category) {
+                                        $category_slug = $category->slug;
+                                        $class = '';
+
+                                        if ($category_slug === 'topics') {
+                                            $class = 'uk-label uk-label-default';
+                                        } elseif ($category_slug === 'organized') {
+                                            $class = 'uk-label uk-label-organized';
+                                        } elseif ($category_slug === 'byo') {
+                                            $class = 'uk-label uk-label-byo';
+                                        } else {
+                                            // その他のカテゴリーはデフォルトのスタイルを適用
+                                            $class = 'uk-label uk-label-default';
+                                        }
+
+                                        echo '<span class="' . $class . ' uk-margin-small-right">' . esc_html($category->name) . '</span>';
+                                    }
+                                    echo '</p>';
+                                }
+                                ?>
+                            </div>
                             <p>
                                 <a href="<?php the_permalink(); ?>" class="uk-link-reset">
                                     <?php the_title(); ?>
