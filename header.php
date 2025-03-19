@@ -79,7 +79,7 @@
                                 <li><a href="<?php echo home_url("about"); ?>">事業紹介</a></li>
                                 <li><a href="<?php echo home_url("facility"); ?>">施設概要</a></li>
                                 <li><a href="<?php echo home_url("residence"); ?>">利用者紹介</a></li>
-                                <li><a href="<?php echo home_url("howtouse"); ?>">ご利用方法</a></li>
+                                <li><a href="<?php echo home_url("howtouse"); ?>">ご利用方法（予約）</a></li>
                                 <li><a href="<?php echo home_url("news"); ?>">お知らせ</a></li>
                                 <li class="uk-margin-right"><a href="<?php echo home_url("contact"); ?>">お問い合わせ</a>
                                 </li>
@@ -92,9 +92,9 @@
                                     <div class="uk-navbar-subtitle uk-text-large">0173-26-5888</div>
                                 </div>
                                 <a class="uk-button uk-button-default uk-border-rounded uk-margin-small-right uk-margin-small-left"
-                                    href="https://docs.google.com/forms/d/e/1FAIpQLSe6BxN7Usqa7DSIlAc47rDMPvo0gDYznkPNnvy7_wtV9DKdDw/viewform"
+                                    href="https://yoyaku.tsurutalabo.com/login"
                                     target="_blank"
-                                    rel="noopener noreferrer">会員登録はこちらから</a>
+                                    rel="noopener noreferrer">会員登録・ログイン</a>
                                 <a class="uk-navbar-toggle" href="#modal-full" uk-search-icon uk-toggle></a>
                             </div>
                             <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-nav" uk-toggle>
