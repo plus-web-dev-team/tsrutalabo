@@ -29,7 +29,6 @@ get_header();
                     <p>TSURUTA LABOでは、皆様に安心して施設をご利用いただけるよう、会員登録をしていただいた上でのご利用をお願いしております。</p>
                     <ul class="uk-list">
                         <li>※貸オフィスのご利用については、お問い合わせフォームよりご相談ください。</li>
-                        <li>※必要に応じて、お問い合わせフォームから見学予約や利用に関するご質問をお送りください。</li>
                     </ul>
                 </div>
             </div>
@@ -75,7 +74,7 @@ get_header();
                 <div class="uk-background-default uk-padding uk-flex uk-flex-column uk-flex-row@s uk-flex-middle uk-flex-between uk-flex-gap">
                     <div class="uk-width-expand">
                         <h3 class="uk-text-bold uk-text-center uk-text-left@s">利用予約</h3>
-                        <p>会員番号とご利用いただくスペース・日時等を選択し、ご予約ください。</p>
+                        <p>ご利用いただくスペース・日時等を選択し、ご予約ください。</p>
                     </div>
                     <div class="uk-width-auto">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/page_howtouse_header_image05.svg" alt="お問い合わせ・見学予約のイメージ">
@@ -99,7 +98,8 @@ get_header();
                 <div class="uk-background-default uk-padding uk-flex uk-flex-column uk-flex-row@s uk-flex-middle uk-flex-between uk-flex-gap">
                     <div class="uk-width-expand">
                         <h3 class="uk-text-bold uk-text-center uk-text-left@s">利用料金のお支払い</h3>
-                        <p>メールによるオンライン決済・窓口でのお支払いが可能です。</p>
+                        <p class="uk-margin-remove-bottom">ご利用前日までに、利用料金をお支払いください</p>
+                        <p class="uk-margin-remove-top">※メールによるオンライン決済・窓口でのお支払いが可能です。</p>
                     </div>
                     <div class="uk-width-auto">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/page_howtouse_header_image06.svg" alt="お問い合わせ・見学予約のイメージ">
