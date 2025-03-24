@@ -160,10 +160,10 @@ get_header();
                                 <span uk-icon="icon: check"></span>WEB会議用ブース利用可（時間予約制）
                             </li>
                         </ul>
-                        <a href="https://yoyaku.tsurutalabo.com/calendar/coworking" class="uk-button uk-button-default uk-border-rounded uk-align-center uk-text-large uk-padding-small" target="_blank" rel="noopener noreferrer">予　約</a>
+                        <a href="https://yoyaku.tsurutalabo.com/calendar/coworking" class="uk-button uk-button-default uk-border-rounded uk-align-center uk-padding-small font-houwtouse-responsive" target="_blank" rel="noopener noreferrer">予　約</a>
                         <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-gap uk-flex-wrap">
-                            <p class="uk-margin-remove"><a href="<?php echo home_url("/contact"); ?>" class="uk-button uk-button-default uk-border-rounded">お問い合わせ</a></p>
-                            <p class="uk-margin-remove"><a href="https://tsurutalabo.com/wp-content/uploads/2024/12/予約可能な有料施設利用にあたっての注意事項.pdf" class="uk-button uk-button-default uk-border-rounded" target="_blank" rel="noopener noreferrer">注意事項</a></p>
+                            <p class="uk-margin-remove uk-width-expand"><a href="<?php echo home_url("/contact"); ?>" class="uk-button uk-button-default uk-border-rounded uk-width-expand">お問い合わせ</a></p>
+                            <p class="uk-margin-remove uk-width-expand"><a href="https://tsurutalabo.com/wp-content/uploads/2024/12/予約可能な有料施設利用にあたっての注意事項.pdf" class="uk-button uk-button-default uk-border-rounded uk-width-expand" target="_blank" rel="noopener noreferrer">注意事項</a></p>
                         </div>
                     </div>
                 </div>
@@ -171,7 +171,7 @@ get_header();
                     <div class="uk-card uk-card-default uk-padding uk-border-rounded">
                         <div class="uk-text-center">
                             <h3 class="uk-card-title uk-margin-remove">イベントスペース</h3>
-                            <p class="uk-margin-remove">（旧理科室、旧家庭科室、その他）</p>
+                            <p class="uk-margin-remove">（旧理科室、旧図工室、その他）</p>
                             <p>利用時間<span class="uk-margin-left">9:00～18:00</span></p>
                             <p class="uk-margin-remove">日額利用</p>
                             <p><span class="uk-heading-large uk-text-primary uk-margin-remove">5,000</span>円</p>
@@ -190,11 +190,11 @@ get_header();
                                 <span uk-icon="icon: check"></span>レイアウトのカスタマイズ可（机、椅子の配置等）
                             </li>
                         </ul>
-                        <a href="https://yoyaku.tsurutalabo.com/calendar/event-space1" class="uk-button uk-button-default uk-border-rounded uk-align-center uk-text-large uk-padding-small" target="_blank" rel="noopener noreferrer">予　約（旧理科室）</a>
-                        <a href="https://yoyaku.tsurutalabo.com/calendar/event-space2" class="uk-button uk-button-default uk-border-rounded uk-align-center uk-text-large uk-padding-small" target="_blank" rel="noopener noreferrer">予　約（旧音楽室）</a>
+                        <a href="https://yoyaku.tsurutalabo.com/calendar/event-space1" class="uk-button uk-button-default uk-border-rounded uk-align-center uk-padding-small font-houwtouse-responsive" target="_blank" rel="noopener noreferrer">予　約（旧理科室）</a>
+                        <a href="https://yoyaku.tsurutalabo.com/calendar/event-space2" class="uk-button uk-button-default uk-border-rounded uk-align-center uk-padding-small font-houwtouse-responsive" target="_blank" rel="noopener noreferrer">予　約（旧図工室）</a>
                         <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-gap uk-flex-wrap">
-                            <p class="uk-margin-remove"><a href="<?php echo home_url("/contact"); ?>" class="uk-button uk-button-default uk-border-rounded">お問い合わせ</a></p>
-                            <p class="uk-margin-remove"><a href="https://tsurutalabo.com/wp-content/uploads/2024/12/予約可能な有料施設利用にあたっての注意事項.pdf" class="uk-button uk-button-default uk-border-rounded" target="_blank" rel="noopener noreferrer">注意事項</a></p>
+                            <p class="uk-margin-remove uk-width-expand"><a href="<?php echo home_url("/contact"); ?>" class="uk-button uk-button-default uk-border-rounded uk-width-expand">お問い合わせ</a></p>
+                            <p class="uk-margin-remove uk-width-expand"><a href="https://tsurutalabo.com/wp-content/uploads/2024/12/予約可能な有料施設利用にあたっての注意事項.pdf" class="uk-button uk-button-default uk-border-rounded uk-width-expand" target="_blank" rel="noopener noreferrer">注意事項</a></p>
                         </div>
                     </div>
                 </div>
@@ -223,10 +223,10 @@ get_header();
                                 <span uk-icon="icon: check"></span>レイアウトのカスタマイズ可（レジカウンターの配置等）
                             </li>
                         </ul>
-                        <a href="https://yoyaku.tsurutalabo.com/calendar/share-shop" class="uk-button uk-button-default uk-border-rounded uk-align-center uk-text-large uk-padding-small" target="_blank" rel="noopener noreferrer">予　約</a>
+                        <a href="https://yoyaku.tsurutalabo.com/calendar/share-shop" class="uk-button uk-button-default uk-border-rounded uk-align-center uk-padding-small font-houwtouse-responsive" target="_blank" rel="noopener noreferrer">予　約</a>
                         <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-gap uk-flex-wrap">
-                            <p class="uk-margin-remove"><a href="<?php echo home_url("/contact"); ?>" class="uk-button uk-button-default uk-border-rounded">お問い合わせ</a></p>
-                            <p class="uk-margin-remove"><a href="https://tsurutalabo.com/wp-content/uploads/2024/12/予約可能な有料施設利用にあたっての注意事項.pdf" class="uk-button uk-button-default uk-border-rounded" target="_blank" rel="noopener noreferrer">注意事項</a></p>
+                            <p class="uk-margin-remove uk-width-expand"><a href="<?php echo home_url("/contact"); ?>" class="uk-button uk-button-default uk-border-rounded uk-width-expand">お問い合わせ</a></p>
+                            <p class="uk-margin-remove uk-width-expand"><a href="https://tsurutalabo.com/wp-content/uploads/2024/12/予約可能な有料施設利用にあたっての注意事項.pdf" class="uk-button uk-button-default uk-border-rounded uk-width-expand" target="_blank" rel="noopener noreferrer">注意事項</a></p>
                         </div>
                     </div>
                 </div>
@@ -252,10 +252,10 @@ get_header();
                                 <span uk-icon="icon: check"></span>レイアウトのカスタマイズ可（机、椅子の配置等）
                             </li>
                         </ul>
-                        <a href="https://yoyaku.tsurutalabo.com/calendar/meeting-room" class="uk-button uk-button-default uk-border-rounded uk-align-center uk-text-large uk-padding-small" target="_blank" rel="noopener noreferrer">予　約</a>
+                        <a href="https://yoyaku.tsurutalabo.com/calendar/meeting-room" class="uk-button uk-button-default uk-border-rounded uk-align-center uk-padding-small font-houwtouse-responsive" target="_blank" rel="noopener noreferrer">予　約</a>
                         <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-gap uk-flex-wrap">
-                            <p class="uk-margin-remove"><a href="<?php echo home_url("/contact"); ?>" class="uk-button uk-button-default uk-border-rounded">お問い合わせ</a></p>
-                            <p class="uk-margin-remove"><a href="https://tsurutalabo.com/wp-content/uploads/2024/12/予約可能な有料施設利用にあたっての注意事項.pdf" class="uk-button uk-button-default uk-border-rounded" target="_blank" rel="noopener noreferrer">注意事項</a></p>
+                            <p class="uk-margin-remove uk-width-expand uk-width-expand"><a href="<?php echo home_url("/contact"); ?>" class="uk-button uk-button-default uk-border-rounded uk-width-expand">お問い合わせ</a></p>
+                            <p class="uk-margin-remove uk-width-expand uk-width-expand"><a href="https://tsurutalabo.com/wp-content/uploads/2024/12/予約可能な有料施設利用にあたっての注意事項.pdf" class="uk-button uk-button-default uk-border-rounded uk-width-expand" target="_blank" rel="noopener noreferrer">注意事項</a></p>
                         </div>
                     </div>
                 </div>
@@ -282,10 +282,10 @@ get_header();
                             </li>
                         </ul>
                         <p class="uk-margin-bottom">※備品の貸し出しは現在調整中です</p>
-                        <a href="https://yoyaku.tsurutalabo.com/calendar/sports-hall" class="uk-button uk-button-default uk-border-rounded uk-align-center uk-text-large uk-padding-small" target="_blank" rel="noopener noreferrer">予　約</a>
+                        <a href="https://yoyaku.tsurutalabo.com/calendar/sports-hall" class="uk-button uk-button-default uk-border-rounded uk-align-center uk-padding-small font-houwtouse-responsive" target="_blank" rel="noopener noreferrer">予　約</a>
                         <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-gap uk-flex-wrap">
-                            <p class="uk-margin-remove"><a href="<?php echo home_url("/contact"); ?>" class="uk-button uk-button-default uk-border-rounded">お問い合わせ</a></p>
-                            <p class="uk-margin-remove"><a href="https://tsurutalabo.com/wp-content/uploads/2024/12/予約可能な有料施設利用にあたっての注意事項.pdf" class="uk-button uk-button-default uk-border-rounded" target="_blank" rel="noopener noreferrer">注意事項</a></p>
+                            <p class="uk-margin-remove uk-width-expand"><a href="<?php echo home_url("/contact"); ?>" class="uk-button uk-button-default uk-border-rounded uk-width-expand">お問い合わせ</a></p>
+                            <p class="uk-margin-remove uk-width-expand"><a href="https://tsurutalabo.com/wp-content/uploads/2024/12/予約可能な有料施設利用にあたっての注意事項.pdf" class="uk-button uk-button-default uk-border-rounded uk-width-expand" target="_blank" rel="noopener noreferrer">注意事項</a></p>
                         </div>
                     </div>
                 </div>
@@ -308,8 +308,8 @@ get_header();
                                 <span uk-icon="icon: check"></span>スポーツ・大規模イベント等にも
                             </li>
                         </ul>
-                        <a href="https://yoyaku.tsurutalabo.com/calendar/stadium" class="uk-button uk-button-default uk-border-rounded uk-align-center uk-text-large uk-padding-small" target="_blank" rel="noopener noreferrer">予　約（野球場）</a>
-                        <a href="https://yoyaku.tsurutalabo.com/calendar/multi-space" class="uk-button uk-button-default uk-border-rounded uk-align-center uk-text-large uk-padding-small" target="_blank" rel="noopener noreferrer">予　約（多目的グラウンド）</a>
+                        <a href="https://yoyaku.tsurutalabo.com/calendar/stadium" class="uk-button uk-button-default uk-border-rounded uk-align-center uk-padding-small font-houwtouse-responsive" target="_blank" rel="noopener noreferrer">予　約（野球場）</a>
+                        <a href="https://yoyaku.tsurutalabo.com/calendar/multi-space" class="uk-button uk-button-default uk-border-rounded uk-align-center uk-padding-small font-houwtouse-responsive" target="_blank" rel="noopener noreferrer">予　約（多目的グラウンド）</a>
                         <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-gap uk-flex-wrap">
                             <p class="uk-margin-remove"><a href="<?php echo home_url("/contact"); ?>" class="uk-button uk-button-default uk-border-rounded">お問い合わせ</a></p>
                             <p class="uk-margin-remove"><a href="https://tsurutalabo.com/wp-content/uploads/2024/12/予約可能な有料施設利用にあたっての注意事項.pdf" class="uk-button uk-button-default uk-border-rounded" target="_blank" rel="noopener noreferrer">注意事項</a></p>

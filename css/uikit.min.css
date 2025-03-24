@@ -1236,7 +1236,7 @@ select.uk-form-width-xsmall {
   border-radius: 0;
   display: inline-block;
   box-sizing: border-box;
-  padding: 0 30px;
+  padding: 0 clamp(1.25rem, 0.991rem + 1.1vw, 1.875rem);
   vertical-align: middle;
   font-size: 0.875rem;
   line-height: 38px;

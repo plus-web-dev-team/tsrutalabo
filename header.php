@@ -123,7 +123,7 @@
                     <li><a class="uk-text-white" href="<?php echo home_url("about"); ?>">事業紹介</a></li>
                     <li><a class="uk-text-white" href="<?php echo home_url("facility"); ?>">施設概要</a></li>
                     <li><a class="uk-text-white" href="<?php echo home_url("residence"); ?>">利用者紹介</a></li>
-                    <li><a class="uk-text-white" href="<?php echo home_url("howtouse"); ?>">ご利用方法</a></li>
+                    <li><a class="uk-text-white" href="<?php echo home_url("howtouse"); ?>">ご利用方法（予約）</a></li>
                     <li><a class="uk-text-white" href="<?php echo home_url("news"); ?>">お知らせ</a></li>
                     <li><a class="uk-text-white" href="<?php echo home_url("contact"); ?>">お問い合わせ</a></li>
                 </ul>
