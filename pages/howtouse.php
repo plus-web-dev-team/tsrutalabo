@@ -87,6 +87,7 @@ get_header();
                     <div class="uk-width-expand">
                         <h3 class="uk-text-bold uk-text-center uk-text-left@s">暗証番号の取得</h3>
                         <p>スマートキーの暗証番号がメールにて発行されます。</p>
+                        <p>※スペースによっては予約当日の朝に発行される場合がございます。</p>
                     </div>
                     <div class="uk-width-auto">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/page_howtouse_header_image04.svg" alt="お問い合わせ・見学予約のイメージ">
