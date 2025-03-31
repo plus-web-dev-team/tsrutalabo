@@ -309,8 +309,7 @@ get_header();
                                 <span uk-icon="icon: check"></span>スポーツ・大規模イベント等にも
                             </li>
                         </ul>
-                        <a href="https://yoyaku.tsurutalabo.com/calendar/stadium" class="uk-button uk-button-default uk-border-rounded uk-align-center uk-padding-small font-houwtouse-responsive" target="_blank" rel="noopener noreferrer">予　約（野球場）</a>
-                        <a href="https://yoyaku.tsurutalabo.com/calendar/multi-space" class="uk-button uk-button-default uk-border-rounded uk-align-center uk-padding-small font-houwtouse-responsive" target="_blank" rel="noopener noreferrer">予　約（多目的グラウンド）</a>
+                        <a href="https://yoyaku.tsurutalabo.com/calendar/multi-space" class="uk-button uk-button-default uk-border-rounded uk-align-center uk-padding-small font-houwtouse-responsive" target="_blank" rel="noopener noreferrer">予　約</a>
                         <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-gap uk-flex-wrap">
                             <p class="uk-margin-remove uk-width-expand"><a href="<?php echo home_url("/contact"); ?>" class="uk-button uk-button-default uk-border-rounded uk-width-expand">お問い合わせ</a></p>
                             <p class="uk-margin-remove uk-width-expand"><a href="https://tsurutalabo.com/wp-content/uploads/2024/12/予約可能な有料施設利用にあたっての注意事項.pdf" class="uk-button uk-button-default uk-border-rounded uk-width-expand" target="_blank" rel="noopener noreferrer">注意事項</a></p>
