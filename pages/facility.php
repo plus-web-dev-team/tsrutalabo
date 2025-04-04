@@ -100,12 +100,12 @@ get_header();
                             </div>
                         </div>
                         <div class="uk-panel">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/page_facility_main_image06.png" alt="体育館とグラウンドの画像" class="uk-width-expand uk-margin-bottom">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/page_facility_main_image06.png" alt="体育館と多目的グラウンドの画像" class="uk-width-expand uk-margin-bottom">
                             <div>
-                                <h3 class="uk-text-primary">廃校とは思えない綺麗な体育館とグラウンド</h3>
+                                <h3 class="uk-text-primary">廃校とは思えない綺麗な体育館と多目的グラウンド</h3>
                                 <p class="uk-text-primary">スポーツはもちろん、演劇、ダンス、大規模イベントなど使い方は無限大！
                                     １時間～利用可能なので、コワーキング等を利用した際の仕事の息抜きや健康維持にもぜひご利用ください。
-                                    体育館は更衣室・トイレ完備。スマートロックでの管理により、夜の時間帯も利用できます！また、グラウンドは多目的に利用可能なグラウンドと野球場があります！</p>
+                                    体育館は更衣室・トイレ完備。スマートロックでの管理により、夜の時間帯も利用できます！また、多目的に利用可能なグラウンドと野球場があります！</p>
                             </div>
                         </div>
                     </div>

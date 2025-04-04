@@ -293,7 +293,7 @@ get_header();
                 <div class="uk-panel uk-margin-bottom">
                     <div class="uk-card uk-card-default uk-padding uk-border-rounded">
                         <div class="uk-text-center">
-                            <h3 class="uk-card-title">グラウンド</h3>
+                            <h3 class="uk-card-title">多目的グラウンド</h3>
                             <p>利用時間<span class="uk-margin-left">9:00～18:00</span></p>
                             <p class="uk-margin-remove">団体（大人8名以上）</p>
                             <p><span class="uk-heading-large uk-text-primary uk-margin-remove">800</span>円</p>
