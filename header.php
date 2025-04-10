@@ -140,9 +140,9 @@
                         <p class="uk-navbar-subtitle uk-text-large">0173-26-5888</p>
                     </div>
                     <a class="uk-width-expand uk-button uk-button-primary uk-border-rounded uk-margin-bottom"
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSe6BxN7Usqa7DSIlAc47rDMPvo0gDYznkPNnvy7_wtV9DKdDw/viewform"
+                        href="https://yoyaku.tsurutalabo.com/login"
                         target="_blank"
-                        rel="noopener noreferrer">会員登録はこちらから</a>
+                        rel="noopener noreferrer">会員登録・ログイン</a>
                     <div>
                         <form role="search" method="get" class="uk-search uk-search-default"
                             action="<?php echo home_url('/'); ?>">

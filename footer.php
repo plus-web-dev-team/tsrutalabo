@@ -6,12 +6,12 @@
                     <div class="uk-logo uk-width-medium uk-margin-right uk-margin-small-bottom">
                         <a href="<?php echo esc_url(home_url("/")); ?>">
                             <img src="<?php echo esc_url(get_template_directory_uri() . '/images/logo.svg'); ?>" alt=""
-                                 width="uk-width-expand">
+                                width="uk-width-expand">
                         </a>
                     </div>
                     <div class="uk-margin-small-bottom">
                         <a href="https://www.instagram.com/mottainai.research" uk-icon="icon: instagram" target="_blank"
-                           rel="noopener noreferrer"></a>
+                            rel="noopener noreferrer"></a>
                     </div>
                 </div>
                 <div class="uk-flex uk-flex-column uk-flex-row@m uk-flex-middle">
@@ -22,9 +22,9 @@
                         </div>
                     </a>
                     <a class="uk-button uk-button-default uk-border-rounded"
-                       href="https://docs.google.com/forms/d/e/1FAIpQLSe6BxN7Usqa7DSIlAc47rDMPvo0gDYznkPNnvy7_wtV9DKdDw/viewform"
-                       target="_blank"
-                       rel="noopener noreferrer">会員登録はこちらから</a>
+                        href="https://yoyaku.tsurutalabo.com/login"
+                        target="_blank"
+                        rel="noopener noreferrer">会員登録・ログイン</a>
                 </div>
             </div>
             <hr>
@@ -45,7 +45,7 @@
                 <div class="uk-flex uk-flex-middle uk-flex-around uk-text-small uk-padding-small uk-flex-column uk-flex-row@s">
                     <p class="uk-margin-remove">
                         <a href="<?php echo esc_url(home_url("privacy")); ?>"
-                           class="uk-text-white">プライバシーポリシー</a>
+                            class="uk-text-white">プライバシーポリシー</a>
                     </p>
                     <p class="uk-margin-remove">© TSURUTA LABO. All Rights reserved.</p>
                 </div>
